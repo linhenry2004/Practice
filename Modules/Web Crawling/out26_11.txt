@@ -1,0 +1,3298 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" class="no-js">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>天瓏網路書店 | 電腦書專賣店</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="xdVwV8Jw69KhgT/jCW7/D/b+d5Z6zoJSlU29T7bwBXwi8BEUGb2Mxe//uY9VKrhhauRRtI8jYdYK21SAxFtQmA==" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/logo-simple.png">
+    <link rel="manifest" href="/manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="天瓏書店">
+    <meta name="apple-mobile-web-app-title" content="天瓏書店">
+    <meta name="msapplication-starturl" content="/">
+    
+    <link rel="canonical" href="https://www.tenlong.com.tw" />
+<meta name="keywords" content="天瓏,網路書店,中文書,英文書,原文書,簡體書,電子開發板">
+<meta name="description" content="最齊全的電腦書專賣店，天瓏提供專業電腦中文書、英文書、簡體書、電子開發板，超商取貨滿$350免運費">
+<meta property="fb:app_id" content="1810701175883957" />
+<meta property="og:site_name" content="天瓏網路書店" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:title" content="天瓏網路書店" />
+<meta property="og:description" content="最齊全的電腦書專賣店，天瓏提供專業電腦中文書、英文書、簡體書、電子開發板，超商取貨滿$350免運費" />
+<meta property="og:image" content="https://www.tenlong.com.tw/images/logo.png" />
+<meta property="og:url" content="https://www.tenlong.com.tw" />
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" media="all" href="https://cf-www.tenlong.com.tw/assets/application-b404201141289e8c59d604024f726921e8bd8cdc7f4976f387069cefbe0f0917.css" />
+    <!--[if lt IE 10]>
+      <link rel="stylesheet" media="screen" href="https://cf-www.tenlong.com.tw/assets/ie-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" />
+    <![endif]-->
+    <script>
+var _rollbarConfig = {
+    accessToken: "9963db4fdfc345a0886dd2e7862106f5",
+    captureUncaught: true,
+    captureUnhandledRejections: true,
+    hostWhiteList: ['www.tenlong.com.tw'],
+    payload: {
+        environment: "production"
+    }
+};
+// Rollbar Snippet
+!function(r){function e(n){if(o[n])return o[n].exports;var t=o[n]={exports:{},id:n,loaded:!1};return r[n].call(t.exports,t,t.exports,e),t.loaded=!0,t.exports}var o={};return e.m=r,e.c=o,e.p="",e(0)}([function(r,e,o){"use strict";var n=o(1),t=o(4);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.4.2/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";function n(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}function t(r,e){this.options=r,this._rollbarOldOnError=null;var o=d++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}function a(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var t=new i(e);return n(function(){e.captureUncaught&&(t._rollbarOldOnError=r.onerror,s.captureUncaughtExceptions(r,t,!0),s.wrapGlobals(r,t,!0)),e.captureUnhandledRejections&&s.captureUnhandledRejections(r,t,!0);var n=e.autoInstrument;return e.enabled!==!1&&(void 0===n||n===!0||"object"==typeof n&&n.network)&&r.addEventListener&&(r.addEventListener("load",t.captureLoad.bind(t)),r.addEventListener("DOMContentLoaded",t.captureDomContentLoaded.bind(t))),r[o]=t,t})()}}function l(r){return n(function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)})}var i,s=o(2),d=0,c=o(3),p=function(r,e){return new t(r,e)};i=c.curry?c.curry(p):c.bind(null,p),t.prototype.loadFull=function(r,e,o,t,a){var l=function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,t,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(t=n.args||[],i=0;i<t.length;++i)if(l=t[i],"function"==typeof l){l(e);break}}"function"==typeof a&&a(e)},i=!1,s=e.createElement("script"),d=e.getElementsByTagName("script")[0],c=d.parentNode;s.crossOrigin="",s.src=t.rollbarJsUrl,o||(s.async=!0),s.onload=s.onreadystatechange=n(function(){if(!(i||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){s.onload=s.onreadystatechange=null;try{c.removeChild(s)}catch(r){}i=!0,l()}}),c.insertBefore(s,d)},t.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var u="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<u.length;++f)t.prototype[u[f]]=l(u[f]);r.exports={setupShim:a,Rollbar:i}},function(r,e){"use strict";function o(r,e,o){if(r){var t;"function"==typeof e._rollbarOldOnError?t=e._rollbarOldOnError:r.onerror&&!r.onerror.belongsToShim&&(t=r.onerror,e._rollbarOldOnError=t);var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};a.belongsToShim=o,r.onerror=a}}function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null),e.handleUncaughtException.apply(e,n),o&&o.apply(r,n)}function t(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){t="[unhandledrejection] error getting `detail` from event"}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}function a(r,e,o){if(r){var n,t,a="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(n=0;n<a.length;++n)t=a[n],r[t]&&r[t].prototype&&l(e,r[t].prototype,o)}}function l(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports={captureUncaughtExceptions:o,captureUnhandledRejections:t,wrapGlobals:a}},function(r,e){"use strict";function o(r,e){this.impl=r(e,this),this.options=e,n(o.prototype)}function n(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}o.prototype._swapAndProcessMessages=function(r,e){this.impl=r(this.options);for(var o,n,t;o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=o},function(r,e){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){r=r||{};for(var o,n,t=r.globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);
+// End Rollbar Snippet
+</script>
+
+    <script src="https://cf-www.tenlong.com.tw/assets/application-47d7236008aef89c57f302b66f16241160421cb12f14943e47cfffa8479c1c5f.js"></script>
+    <link rel="stylesheet" media="screen" href="https://cf-www.tenlong.com.tw/packs/css/application-f2749583.css" />
+    <script src="https://cf-www.tenlong.com.tw/packs/js/application-6cdf20a78029f6b03d6b.js"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W3N997');</script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '557213394477621'); // Insert your pixel ID here.
+
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=557213394477621&ev=PageView&noscript=1"
+    /></noscript>
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '1810701175883957',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v3.2'
+      });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <!-- Hotjar Tracking Code for https://www.tenlong.com.tw -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:317001,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js?v=2');
+    });
+  }
+  </script>
+</head>
+
+<!-- 節慶造型背景
+<body class="bg-fixed bg-cover" style="background-image: url(/images/background_02.jpg)">
+-->
+
+<body>
+  <div class="hidden bg-gray-900 bg-opacity-75 w-full h-full z-50 flex justify-center items-center " id="key-event">
+    <div class="top-search rounded-xl bg-white w-2/3 mx-auto p-4 flex-col justify-center items-center" id="key-event-search">
+      <button class="key-esc btn-1" id="key-esc">ESC</button>
+      <div class="w-5/6 m-6 mx-auto">
+        <form action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+          <input type="text" name="keyword" id="keyword" class="input-text w-full" placeholder="想找找什麼呢？" />
+          <input type="hidden" name="sort" id="sort" />
+          <input type="hidden" name="display" id="display" />
+
+          <ul class="flex justify-evenly mt-3 serach-checkbox-group">
+            <li class="">
+              <input type="checkbox" name="langs[]" id="all" value="all">
+              <label for="all">全部</label>
+            </li>
+            <li class="">
+              <input type="checkbox" name="langs[]" id="zh_tw" value="zh_tw">
+              <label for="zh_tw">繁體書</label>
+            </li>
+            <li class="">
+              <input type="checkbox" name="langs[]" id="zh_cn" value="zh_cn">
+              <label for="zh_cn">簡體書</label>
+            </li>
+            <li class="">
+              <input type="checkbox" name="langs[]" id="en" value="en">
+              <label for="en">英文書</label>
+            </li>
+            <li class="">
+              <input type="checkbox" name="langs[]" id="hw" value="hw">
+              <label for="hw">硬體</label>
+            </li>
+          </ul>
+
+          <div class="my-4 gap-2 flex justify-center">
+            <label>
+              <input type="radio" name="availability" id="availability_stock" value="stock" /> 現貨有庫存
+            </label>
+
+            <label>
+              <input type="radio" name="availability" id="availability_buyable" value="buyable" /> 可下單(含預購)
+            </label>
+
+            <label>
+              <input type="radio" name="availability" id="availability_all" value="all" /> 所有商品(含絕版)
+            </label>
+          </div>
+          <div class="flex justify-center text-2xl">
+            <button><input type="submit" name="commit" value="ENTER" class="btn" data-disable-with="ENTER" /></button>
+          </div>
+</form>      </div>
+
+      <ul class="m-2 w-full gap-2 flex justify-center items-center">
+        熱門搜尋：
+
+          <button class="btn-1"><a href="/search?keyword=Spring+Boot">Spring Boot</a></button>
+          <button class="btn-1"><a href="/search?keyword=matlab">matlab</a></button>
+          <button class="btn-1"><a href="/search?keyword=python">python</a></button>
+          <button class="btn-1"><a href="/search?keyword=Pytorch">Pytorch</a></button>
+          <button class="btn-1"><a href="/search?keyword=%E7%94%9F%E9%86%AB">生醫</a></button>
+      </ul>
+      <ul class="m-2 w-full gap-2 flex justify-center items-center">
+        近期搜尋：
+
+      </ul>
+
+    </div>
+  </div>
+    <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3N997"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+<div class="blur-bg">
+
+  <nav class="center-container">
+    <nav class="grid grid-cols-12 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-800 w-full items-center">
+
+      <a href="/" class="hidden xl:block col-span-3 bg-contain bg-no-repeat bg-center h-16 my-2 mx-4" style="background-image: url(/images/logo23.png)"></a>
+
+      <a href="/" class="hidden sm:block xl:hidden col-span-3 bg-contain bg-no-repeat bg-center h-10 m-2" style="background-image: url(/images/logo27.png)"></a>
+
+      <a href="/" class="block sm:hidden xl:hidden col-span-2 bg-contain bg-no-repeat bg-center h-10 m-2" style="background-image: url(/images/logo06.png)"></a>
+
+      <div class="top-search col-span-6 relative">
+        <form action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+          <input type="text" name="keyword" id="keyword" class="input-text w-full" />
+          <div class="quick-search hidden lg:flex absolute top-0 right-0 p-1 mr-8">
+            <img class="h-6 mx-1 mt-1" src="../images/quicksearch03.png" alt="">
+          </div>
+          <button class="top-search-btn absolute right-0 border-collapse p-2">
+            <img class="h-5 mx-1" src="../images/search-button02.png" alt="">
+          </button>
+</form>      </div>
+
+
+      <ul class="right-menu col-span-4 sm:col-span-3 flex justify-evenly text-white">
+        <li class="">
+          <li class="flex justify-end xl:hidden">
+            <a class="menu-btn text-white cursor-pointer" id="menu-btn">
+              <i class="fa fa-list text-2xl"></i>
+              <span class="hidden xl:inline-block">選單</span>
+            </a>
+              <div class="dropdown transition-all bg-white text-center text-tl_blue text-base w-3/4 sm:w-1/3 md:w-1/3 h-screen z-50 relative " id="dropdown">
+                <ul class="tree-menu">
+                  <li class="relative">
+                    <a href="#" class="block dropdown-main-menu">
+                      <span>公告</span>
+                    </a>
+                    <ul class="sub-menu text-tl_blue h-screen bg-white">
+                      <li class="back-to-last">
+                        <a href="#">回到上一頁</a>
+                      </li>
+                        <li class="text-tl_blue"><a href="/announcements/314">門市營業客服時間調整</a></li>
+                        <li class="text-tl_blue"><a href="/announcements/313">到店取貨新功能上線</a></li>
+                        <li class="text-tl_blue"><a href="/announcements/310">※進口書籍到貨延誤公告※</a></li>
+                        <li class="text-tl_blue"><a href="/announcements/307">※電子發票使用說明※</a></li>
+                        <li class="text-tl_blue"><a href="/announcements/305">天瓏行動會員卡上線囉！</a></li>
+                        <li class="text-tl_blue"><a href="/announcements/302">※詐騙提醒公告 請勿受騙※</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#" class="block dropdown-main-menu">
+                      活動
+                    </a>
+                    <ul class="sub-menu">
+                    <li class="back-to-last"><a href="#">回到上一頁</a></li>
+                        <li class="text-tl_blue"><a href="/events/2021-oreilly-bag">買3本Oreilly送雲貓提袋</a></li>
+                        <li class="text-tl_blue"><a href="/events/enservice">服務｜代訂英文書</a></li>
+                        <li class="text-tl_blue"><a href="/events/5g">主題｜5G</a></li>
+                        <li class="text-tl_blue"><a href="/events/drmaster-bag">主題｜CleanCode</a></li>
+                        <li class="text-tl_blue"><a href="/events/design-patterns">主題｜設計模式</a></li>
+                        <li class="text-tl_blue"><a href="/events/cleancoder">推薦｜軟體開發聖經</a></li>
+                        <li class="text-tl_blue"><a href="/events/original-products">週邊大集合</a></li>
+                        <li class="text-tl_blue"><a href="/events/painting-01">IT純手工壁畫</a></li>
+                        <li class="text-tl_blue"><a href="/events/7-recommendation">七月主題推薦</a></li>
+                        <li class="text-tl_blue"><a href="/events/booklist">暑假書單</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#" class="block dropdown-main-menu">
+                      熱門
+                    </a>
+                    <ul class="sub-menu">
+                    <li class="back-to-last"><a href="#">回到上一頁</a></li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/net">.NET</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/5g">5G</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/agile">Agile Software 敏捷軟體開發</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/aws">Amazon Web Services</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/android">Android</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/angular">Angular</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/ansible">Ansible</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/apple-developer">Apple Developer</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/arduino">Arduino</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/aspnet">ASP.NET</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/bootstrap">Bootstrap</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/c">C 程式語言</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/c%23">C#</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/c++">C++ 程式語言</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/chatbot">Chatbot 聊天機器人</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/cisco">Cisco</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/cmos">CMOS</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/comptia">CompTIA</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/computer-vision">Computer Vision 電腦視覺 </a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/cross-platform">Cross-Platform</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/css">CSS</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/data-mining">Data-mining 資料探勘</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/data-visualization">Data-visualization 資料視覺化</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/deep-learning">DeepLearning 深度學習</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/design-patterns">Design Pattern 設計模式</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/devops">DevOps</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/docker">Docker</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/esp32">ESP32</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/flutter">Flutter</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/gan">GAN 生成對抗網絡</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/go">Go 程式語言</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/ionic">Ionic</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/java">Java 程式語言</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/javascript">JavaScript</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/jquery">jQuery</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/kubernetes">Kubernetes</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/labview">LabVIEW</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/laravel">Laravel</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/linux">Linux</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/lte">LTE</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/machine-learning">Machine Learning 機器學習 </a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/microservices">Microservices 微服務</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/mysql">MySQL</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/nodejs">Node.js</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/nosql">NoSQL</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/openstack">OpenStack</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/oracle">Oracle</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/oracle-certification">Oracle 認證</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/penetration-test">Penetration-test 滲透測試</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/php">PHP 程式語言</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/python">Python</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/r">R 語言</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/raspberry-pi">Raspberry Pi</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/react">React</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/refactoring">Refactoring 重構</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/reinforcement-learning">Reinforcement 強化學習</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/risc-v">RISC-V</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/ruby">Ruby</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/rust">Rust 語言</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/scratch">Scratch</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/serverless">Serverless</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/tensorflow">TensorFlow</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/text-mining">Text-mining 文字探勘</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/typescript">TypeScript</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/version-control">Version Control 版本控制系統</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/vr-ar">VR/AR</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/vuejs">Vue.js</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/webgl">WebGL</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/webpack">Webpack</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/wordpress">WordPress</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/blockchain">區塊鏈 Blockchain</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/semicondutor">半導體</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/soc">單晶片</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/levelup">工程師自我提升 Levelup</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/image-recognition">影像辨識 Image-recognition</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/digital-image">數位影像處理 Digital-image</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/robots">機器人製作 Robots</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/wireless-networks">無線網路 Wireless-networks</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/product-management">產品經理</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/trading">程式交易 Trading</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/mobile-communication">行動通訊 Mobile-communication</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/speech-recognition">語音辨識 Speech-recognition</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/communication-systems">通訊系統 Communication-systems</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/game-engine">遊戲引擎 Game-engine</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/game-design">遊戲設計 Game-design</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/quantum-computing">量子計算</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/computer-networks">電腦網路 Computer-networks</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/interview">面試技巧</a>
+                        </li>
+                        <li class="text-tl_blue">
+                          <a href="/categories/hack">駭客 Hack</a>
+                        </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#" class="block dropdown-main-menu">
+                      <span>分類</span>
+                    </a>
+                    <ul class="sub-menu text-tl_blue">
+                    <li class="back-to-last"><a href="#">回到上一頁</a></li>
+                      <li><a href="/categories">全部分類</a></li>
+                          <li><a href="/categories/data-science">資料科學</a></li>
+                          <li><a href="/categories/ai">人工智慧</a></li>
+                          <li><a href="/categories/career">職涯發展</a></li>
+                          <li><a href="/categories/front-end">前端開發</a></li>
+                          <li><a href="/categories/web-design">網頁設計</a></li>
+                          <li><a href="/categories/web-development">網站開發</a></li>
+                          <li><a href="/categories/ui-ux">UI/UX</a></li>
+                          <li><a href="/categories/mobile-app">行動軟體開發</a></li>
+                          <li><a href="/categories/database">資料庫</a></li>
+                          <li><a href="/categories/system-programming">系統開發</a></li>
+                          <li><a href="/categories/cloud-computing">雲端運算</a></li>
+                          <li><a href="/categories/distributed-systems">分散式架構</a></li>
+                          <li><a href="/categories/quantum-computer">量子電腦</a></li>
+                          <li><a href="/categories/programming-languages">程式語言</a></li>
+                          <li><a href="/categories/game-development">遊戲開發設計</a></li>
+                          <li><a href="/categories/software-architecture">軟體架構</a></li>
+                          <li><a href="/categories/software-engineering">軟體工程</a></li>
+                          <li><a href="/categories/software-testing">軟體測試</a></li>
+                          <li><a href="/categories/computer-science">資訊科學</a></li>
+                          <li><a href="/categories/computer-security">資訊安全</a></li>
+                          <li><a href="/categories/iot">物聯網 IoT</a></li>
+                          <li><a href="/categories/adobe">Adobe 軟體應用</a></li>
+                          <li><a href="/categories/office">Office 系列</a></li>
+                          <li><a href="/categories/java-all">Java</a></li>
+                          <li><a href="/categories/microsoft">微軟技術</a></li>
+                          <li><a href="/categories/blockchain-and-fintech">區塊鏈與金融科技</a></li>
+                          <li><a href="/categories/network-communications">網路通訊</a></li>
+                          <li><a href="/categories/business">商業管理類</a></li>
+                          <li><a href="/categories/electronics-all">電子電路電機類</a></li>
+                          <li><a href="/categories/embedded-system">嵌入式系統</a></li>
+                          <li><a href="/categories/mathematics">數學</a></li>
+                          <li><a href="/categories/visual-design">視覺影音設計</a></li>
+                          <li><a href="/categories/macos">MAC OS 蘋果電腦</a></li>
+                          <li><a href="/categories/others">其他</a></li>
+                          <li><a href="/categories/children">兒童專區</a></li>
+                          <li><a href="/categories/cad">製圖軟體應用</a></li>
+                          <li><a href="/categories/science-technology">理工類</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="block" href="/tw">中文館</a></li>
+                  <li><a class="block" href="/en">英文館</a></li>
+                  <li><a class="block" href="/cn">簡體館</a></li>
+                  <li><a class="block" href="/hw">硬體館</a></li>
+
+                  <li>
+                    <a href="#" class="block dropdown-main-menu">
+                      出版社
+                    </a>
+                    <ul class="sub-menu">
+                    <li class="back-to-last"><a href="#">回到上一頁</a></li>
+                    <li><a href="/publishers">更多出版社</a></li>
+
+                      <li><a href="/publishers/4">碁峰資訊</a></li>
+                      <li><a href="/publishers/15">歐萊禮</a></li>
+                      <li><a href="/publishers/14">博碩文化</a></li>
+                      <li><a href="/publishers/8">旗標科技</a></li>
+                      <li><a href="/publishers/A01">深智數位</a></li>
+                      <li><a href="/publishers/60">上奇資訊</a></li>
+                      <li><a href="/publishers/1757">深石數位</a></li>
+                      <li><a href="/publishers/13">佳魁資訊</a></li>
+                      <li><a href="/publishers/192">經緯文化</a></li>
+                      <li><a href="/publishers/9">全華圖書</a></li>
+                      <li><a href="/publishers/274">人民郵電</a></li>
+                      <li><a href="/publishers/276">電子工業</a></li>
+                      <li><a href="/publishers/279">清華大學</a></li>
+                      <li><a href="/publishers/284">機械工業</a></li>
+                      <li><a href="/publishers/88">Addison Wesley </a></li>
+                      <li><a href="/publishers/90">Apress</a></li>
+                      <li><a href="/publishers/86">A K Peters </a></li>
+                      <li><a href="/publishers/95">CRC</a></li>
+                      <li><a href="/publishers/94">Cisco Press</a></li>
+                      <li><a href="/publishers/93">Cambridge </a></li>
+                      <li><a href="/publishers/99">Wiley </a></li>
+                      <li><a href="/publishers/100">McGraw-Hill Education</a></li>
+                      <li><a href="/publishers/118">Morgan &amp; Claypool</a></li>
+                      <li><a href="/publishers/104">Morgan Kaufmann </a></li>
+                      <li><a href="/publishers/101">MicroSoft </a></li>
+                      <li><a href="/publishers/85">Manning </a></li>
+                      <li><a href="/publishers/106">No Starch Press</a></li>
+                      <li><a href="/publishers/oreilly">O&#39;Reilly </a></li>
+                      <li><a href="/publishers/83">Packt Publishing</a></li>
+                      <li><a href="/publishers/80">Pragmatic Bookshelf </a></li>
+                      <li><a href="/publishers/107">Prentice Hall </a></li>
+                      <li><a href="/publishers/111">Springer </a></li>
+                      <li><a href="/publishers/87">Academic Press </a></li>
+                      <li><a href="/publishers/89">Adobe Press </a></li>
+                      <li><a href="/publishers/91">Auerbach Publication </a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="#" class="block dropdown-main-menu">
+                      其他商品
+                    </a>
+                    <ul class="sub-menu">
+                    <li class="back-to-last"><a href="#">回到上一頁</a></li>
+                    <li class="faq"><a href="/hw">電子開發板</a></li>
+                    <li class="faq"><a href="/specials">特價書籍</a></li>
+                    <li class="faq"><a href="/foreign">暢銷外文書</a></li>
+
+                        <li><a href="/lists/1142">IT手工壁畫</a></li>
+                        <li><a href="/lists/1043">阿喵周邊商品</a></li>
+                        <li><a href="/lists/999">HITCON</a></li>
+                        <li><a href="/lists/971">IT馬克杯</a></li>
+                        <li><a href="/lists/970">IT狗精品區</a></li>
+                        <li><a href="/lists/944">IT T-shirt</a></li>
+                        <li><a href="/lists/624">商管科普推薦書</a></li>
+                        <li><a href="/lists/587">Make 國際中文版</a></li>
+                        <li><a href="/lists/586">機器人雜誌 ROBOCON Magazine</a></li>
+                        <li><a href="/lists/585">Circuit Cellar 嵌入式科技 國際中文版</a></li>
+                        <li><a href="/lists/584">創客‧自造者工作坊</a></li>
+                        <li><a href="/lists/582">大人的科學 (中文版)</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="block" href="/about">門市資訊</a></li>
+                  <li><a class="block" href="/codingspace">場地資訊</a></li>
+                </ul>
+              </div>
+          </li>
+        </li>
+
+        <div class="side-menu-bg"></div>
+        <button class="member-close-btn hidden focus:outline-none hover:bg-blue-600 text-lg btn-position cursor-pointer text-gray-500 rounded border border-solid border-tl_blue bg-tl_blue w-10 h-10 leading-10">Xx</button>
+        <li class="alternative-main-menu">
+          <a href="#">
+            <i class="fa fa-bars"></i>
+            <span class="hide"></span>
+          </a>
+        </li>
+          <li class="log-in">
+            <a href="/users/sign_in">
+              <i class="fa fa-user-plus"></i>
+              <span class="hidden xl:inline-block">會員登入</span>
+</a>          </li>
+
+        <li class="">
+          <a href="/cart?cart_type=auto">
+            <span class="hidden sm:inline-block"><i class="fa fa-shopping-cart "></i></span>
+            <i class="cart-quantity text-white">0</i>
+            <span class="hidden xl:inline-block">購物車</span>
+</a>        </li>
+      </ul>
+
+    </nav>
+  </nav>
+
+  <nav class="top-nav hidden xl:flex justify-center items-start bg-gradient-to-b from-gray-800 via-gray-800 to-gray-800 text-gray-300 w-full">
+    <ul class="main-menu">
+      <li class="member-menu">
+        <a href="#">
+          <span>公告</span>
+        </a>
+        <ul class="category-list">
+            <li class="text-tl_blue"><a href="/announcements/314">門市營業客服時間調整</a></li>
+            <li class="text-tl_blue"><a href="/announcements/313">到店取貨新功能上線</a></li>
+            <li class="text-tl_blue"><a href="/announcements/310">※進口書籍到貨延誤公告※</a></li>
+            <li class="text-tl_blue"><a href="/announcements/307">※電子發票使用說明※</a></li>
+            <li class="text-tl_blue"><a href="/announcements/305">天瓏行動會員卡上線囉！</a></li>
+            <li class="text-tl_blue"><a href="/announcements/302">※詐騙提醒公告 請勿受騙※</a></li>
+        </ul>
+      </li>
+
+      <li class="member-menu">
+        <a href="#">
+          <span>活動</span>
+        </a>
+        <ul class="category-list">
+            <li class="text-tl_blue"><a href="/events/2021-oreilly-bag">買3本Oreilly送雲貓提袋</a></li>
+            <li class="text-tl_blue"><a href="/events/enservice">服務｜代訂英文書</a></li>
+            <li class="text-tl_blue"><a href="/events/5g">主題｜5G</a></li>
+            <li class="text-tl_blue"><a href="/events/drmaster-bag">主題｜CleanCode</a></li>
+            <li class="text-tl_blue"><a href="/events/design-patterns">主題｜設計模式</a></li>
+            <li class="text-tl_blue"><a href="/events/cleancoder">推薦｜軟體開發聖經</a></li>
+            <li class="text-tl_blue"><a href="/events/original-products">週邊大集合</a></li>
+            <li class="text-tl_blue"><a href="/events/painting-01">IT純手工壁畫</a></li>
+            <li class="text-tl_blue"><a href="/events/7-recommendation">七月主題推薦</a></li>
+            <li class="text-tl_blue"><a href="/events/booklist">暑假書單</a></li>
+        </ul>
+      </li>
+
+      <li class=""><a href="/tw">中文館</a></li>
+      <li class=""><a href="/en">英文館</a></li>
+      <li class=""><a href="/cn">簡體館</a></li>
+      <li class=""><a href="/hw">硬體館</a></li>
+
+        <li>
+          <a href="#">
+            <span>熱門</span>
+          </a>
+          <ul class="category-list">
+              <li class="text-tl_blue">
+                <a href="/categories/net">.NET</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/5g">5G</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/agile">Agile Software 敏捷軟體開發</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/aws">Amazon Web Services</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/android">Android</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/angular">Angular</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/ansible">Ansible</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/apple-developer">Apple Developer</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/arduino">Arduino</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/aspnet">ASP.NET</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/bootstrap">Bootstrap</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/c">C 程式語言</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/c%23">C#</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/c++">C++ 程式語言</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/chatbot">Chatbot 聊天機器人</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/cisco">Cisco</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/cmos">CMOS</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/comptia">CompTIA</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/computer-vision">Computer Vision 電腦視覺 </a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/cross-platform">Cross-Platform</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/css">CSS</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/data-mining">Data-mining 資料探勘</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/data-visualization">Data-visualization 資料視覺化</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/deep-learning">DeepLearning 深度學習</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/design-patterns">Design Pattern 設計模式</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/devops">DevOps</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/docker">Docker</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/esp32">ESP32</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/flutter">Flutter</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/gan">GAN 生成對抗網絡</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/go">Go 程式語言</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/ionic">Ionic</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/java">Java 程式語言</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/javascript">JavaScript</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/jquery">jQuery</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/kubernetes">Kubernetes</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/labview">LabVIEW</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/laravel">Laravel</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/linux">Linux</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/lte">LTE</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/machine-learning">Machine Learning 機器學習 </a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/microservices">Microservices 微服務</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/mysql">MySQL</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/nodejs">Node.js</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/nosql">NoSQL</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/openstack">OpenStack</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/oracle">Oracle</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/oracle-certification">Oracle 認證</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/penetration-test">Penetration-test 滲透測試</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/php">PHP 程式語言</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/python">Python</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/r">R 語言</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/raspberry-pi">Raspberry Pi</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/react">React</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/refactoring">Refactoring 重構</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/reinforcement-learning">Reinforcement 強化學習</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/risc-v">RISC-V</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/ruby">Ruby</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/rust">Rust 語言</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/scratch">Scratch</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/serverless">Serverless</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/tensorflow">TensorFlow</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/text-mining">Text-mining 文字探勘</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/typescript">TypeScript</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/version-control">Version Control 版本控制系統</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/vr-ar">VR/AR</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/vuejs">Vue.js</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/webgl">WebGL</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/webpack">Webpack</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/wordpress">WordPress</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/blockchain">區塊鏈 Blockchain</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/semicondutor">半導體</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/soc">單晶片</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/levelup">工程師自我提升 Levelup</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/image-recognition">影像辨識 Image-recognition</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/digital-image">數位影像處理 Digital-image</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/robots">機器人製作 Robots</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/wireless-networks">無線網路 Wireless-networks</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/product-management">產品經理</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/trading">程式交易 Trading</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/mobile-communication">行動通訊 Mobile-communication</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/speech-recognition">語音辨識 Speech-recognition</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/communication-systems">通訊系統 Communication-systems</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/game-engine">遊戲引擎 Game-engine</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/game-design">遊戲設計 Game-design</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/quantum-computing">量子計算</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/computer-networks">電腦網路 Computer-networks</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/interview">面試技巧</a>
+              </li>
+              <li class="text-tl_blue">
+                <a href="/categories/hack">駭客 Hack</a>
+              </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">
+            <span>分類</span>
+          </a>
+          <ul class="category-list text-tl_blue">
+            <li><a href="/categories">全部分類</a></li>
+                <li><a href="/categories/data-science">資料科學</a></li>
+                <li><a href="/categories/ai">人工智慧</a></li>
+                <li><a href="/categories/career">職涯發展</a></li>
+                <li><a href="/categories/front-end">前端開發</a></li>
+                <li><a href="/categories/web-design">網頁設計</a></li>
+                <li><a href="/categories/web-development">網站開發</a></li>
+                <li><a href="/categories/ui-ux">UI/UX</a></li>
+                <li><a href="/categories/mobile-app">行動軟體開發</a></li>
+                <li><a href="/categories/database">資料庫</a></li>
+                <li><a href="/categories/system-programming">系統開發</a></li>
+                <li><a href="/categories/cloud-computing">雲端運算</a></li>
+                <li><a href="/categories/distributed-systems">分散式架構</a></li>
+                <li><a href="/categories/quantum-computer">量子電腦</a></li>
+                <li><a href="/categories/programming-languages">程式語言</a></li>
+                <li><a href="/categories/game-development">遊戲開發設計</a></li>
+                <li><a href="/categories/software-architecture">軟體架構</a></li>
+                <li><a href="/categories/software-engineering">軟體工程</a></li>
+                <li><a href="/categories/software-testing">軟體測試</a></li>
+                <li><a href="/categories/computer-science">資訊科學</a></li>
+                <li><a href="/categories/computer-security">資訊安全</a></li>
+                <li><a href="/categories/iot">物聯網 IoT</a></li>
+                <li><a href="/categories/adobe">Adobe 軟體應用</a></li>
+                <li><a href="/categories/office">Office 系列</a></li>
+                <li><a href="/categories/java-all">Java</a></li>
+                <li><a href="/categories/microsoft">微軟技術</a></li>
+                <li><a href="/categories/blockchain-and-fintech">區塊鏈與金融科技</a></li>
+                <li><a href="/categories/network-communications">網路通訊</a></li>
+                <li><a href="/categories/business">商業管理類</a></li>
+                <li><a href="/categories/electronics-all">電子電路電機類</a></li>
+                <li><a href="/categories/embedded-system">嵌入式系統</a></li>
+                <li><a href="/categories/mathematics">數學</a></li>
+                <li><a href="/categories/visual-design">視覺影音設計</a></li>
+                <li><a href="/categories/macos">MAC OS 蘋果電腦</a></li>
+                <li><a href="/categories/others">其他</a></li>
+                <li><a href="/categories/children">兒童專區</a></li>
+                <li><a href="/categories/cad">製圖軟體應用</a></li>
+                <li><a href="/categories/science-technology">理工類</a></li>
+          </ul>
+        </li>
+
+
+      <li class="">
+        <a href="#">出版社</a>
+        <ul class="category-list text-tl_blue">
+            <li><a href="/publishers/4">碁峰資訊</a></li>
+            <li><a href="/publishers/15">歐萊禮</a></li>
+            <li><a href="/publishers/14">博碩文化</a></li>
+            <li><a href="/publishers/8">旗標科技</a></li>
+            <li><a href="/publishers/A01">深智數位</a></li>
+            <li><a href="/publishers/60">上奇資訊</a></li>
+            <li><a href="/publishers/1757">深石數位</a></li>
+            <li><a href="/publishers/13">佳魁資訊</a></li>
+            <li><a href="/publishers/192">經緯文化</a></li>
+            <li><a href="/publishers/9">全華圖書</a></li>
+            <li><a href="/publishers/274">人民郵電</a></li>
+            <li><a href="/publishers/276">電子工業</a></li>
+            <li><a href="/publishers/279">清華大學</a></li>
+            <li><a href="/publishers/284">機械工業</a></li>
+            <li><a href="/publishers/88">Addison Wesley </a></li>
+            <li><a href="/publishers/90">Apress</a></li>
+            <li><a href="/publishers/86">A K Peters </a></li>
+            <li><a href="/publishers/95">CRC</a></li>
+            <li><a href="/publishers/94">Cisco Press</a></li>
+            <li><a href="/publishers/93">Cambridge </a></li>
+            <li><a href="/publishers/99">Wiley </a></li>
+            <li><a href="/publishers/100">McGraw-Hill Education</a></li>
+            <li><a href="/publishers/118">Morgan &amp; Claypool</a></li>
+            <li><a href="/publishers/104">Morgan Kaufmann </a></li>
+            <li><a href="/publishers/101">MicroSoft </a></li>
+            <li><a href="/publishers/85">Manning </a></li>
+            <li><a href="/publishers/106">No Starch Press</a></li>
+            <li><a href="/publishers/oreilly">O&#39;Reilly </a></li>
+            <li><a href="/publishers/83">Packt Publishing</a></li>
+            <li><a href="/publishers/80">Pragmatic Bookshelf </a></li>
+            <li><a href="/publishers/107">Prentice Hall </a></li>
+            <li><a href="/publishers/111">Springer </a></li>
+            <li><a href="/publishers/87">Academic Press </a></li>
+            <li><a href="/publishers/89">Adobe Press </a></li>
+            <li><a href="/publishers/91">Auerbach Publication </a></li>
+          <li><a href="/publishers">更多出版社</a></li>
+        </ul>
+      </li>
+
+        <li class="hidden sm:block">
+          <a href="#">
+            <span>其他商品</span>
+          </a>
+          <ul class="category-list text-tl_blue">
+            <li class="faq"><a href="/hw">電子開發板</a></li>
+            <li class="faq"><a href="/specials">特價書籍</a></li>
+            <li class="faq"><a href="/foreign">暢銷外文書</a></li>
+                <li><a href="/lists/1142">IT手工壁畫</a></li>
+                <li><a href="/lists/1043">阿喵周邊商品</a></li>
+                <li><a href="/lists/999">HITCON</a></li>
+                <li><a href="/lists/971">IT馬克杯</a></li>
+                <li><a href="/lists/970">IT狗精品區</a></li>
+                <li><a href="/lists/944">IT T-shirt</a></li>
+                <li><a href="/lists/624">商管科普推薦書</a></li>
+                <li><a href="/lists/587">Make 國際中文版</a></li>
+                <li><a href="/lists/586">機器人雜誌 ROBOCON Magazine</a></li>
+                <li><a href="/lists/585">Circuit Cellar 嵌入式科技 國際中文版</a></li>
+                <li><a href="/lists/584">創客‧自造者工作坊</a></li>
+                <li><a href="/lists/582">大人的科學 (中文版)</a></li>
+          </ul>
+        </li>
+
+        <li><a href="/about">門市資訊</a></li>
+        <li><a href="/codingspace">場地資訊</a></li>
+    </ul>
+  </nav>
+
+  <nav class="bg-gray-800 text-white hidden sm:block">
+    <div class="keywords-list flex justify-center items-center p-1 text-xs sm:text-sm overflow-x-auto">
+        <div class="mr-4"><a href="/events/2021-oreilly-bag">O&#39;reilly貓貓袋</a></div>
+        <div class="mr-4"><a href="/events/enservice">英文書代訂</a></div>
+        <div class="mr-4"><a href="/events/5g">5G</a></div>
+        <div class="mr-4"><a href="/events/drmaster-bag">CleanCode</a></div>
+        <div class="mr-4"><a href="/events/painting-01">手工壁畫</a></div>
+        <div class="mr-4"><a href="/events/7-recommendation">#七月主題推薦</a></div>
+        <div class="mr-4"><a href="/events/booklist">#暑假書單</a></div>
+      </div>
+  </nav>
+
+  <div class="w-11/12 mt-2 mx-auto">
+  </div>
+
+  <div class="xl:w-11/12 mx-auto">
+  </div>
+
+
+  <div class="center-container">
+    <div class="w-full sm:w-11/12 mx-auto">
+      <div class="content-wrapper">
+        
+<section class="index-ad-carousel hidden">
+  <ul class="index-ad-list">
+      <li class="active"><a title="Spring Boot" href="/pins/3107"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/107/webp/Spring_boot.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/107/pjpeg/Spring_boot.jpg" /></picture></a></li>
+      <li class=""><a title="暑假書單" href="/pins/3099"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/099/webp/202107_%E6%9A%91%E5%81%87%E6%9B%B8%E5%96%AE-bn.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/099/pjpeg/202107_%E6%9A%91%E5%81%87%E6%9B%B8%E5%96%AE-bn.jpg" /></picture></a></li>
+      <li class=""><a title="CISSP" href="/pins/3093"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/093/webp/202107_isc-cissp.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/093/pjpeg/202107_isc-cissp.jpg" /></picture></a></li>
+      <li class=""><a title="DDD" href="/pins/2962"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/002/962/webp/9787111666301.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/002/962/pjpeg/9787111666301.jpg" /></picture></a></li>
+      <li class=""><a title="爬蟲" href="/pins/3105"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/105/webp/MP22141_Banner_1800x410.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/105/pjpeg/MP22141_Banner_1800x410.jpg" /></picture></a></li>
+      <li class=""><a title="AWS" href="/pins/3083"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/083/webp/1800X410.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/083/pjpeg/1800X410.jpg" /></picture></a></li>
+      <li class=""><a title="Spring" href="/pins/3081"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/081/webp/1800X410.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/081/pjpeg/1800X410.jpg" /></picture></a></li>
+      <li class=""><a title="深度學習" href="/pins/3071"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/071/webp/%E6%97%97%E6%A8%99%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-bn.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/071/pjpeg/%E6%97%97%E6%A8%99%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-bn.jpg" /></picture></a></li>
+      <li class=""><a title="O&#39;reilly" href="/pins/3065"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/065/webp/33_bn.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/065/pjpeg/33_bn.jpg" /></picture></a></li>
+      <li class=""><a title="CQRS" href="/pins/3059"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/059/webp/MP12030_Banner_1800x410.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/059/pjpeg/MP12030_Banner_1800x410.jpg" /></picture></a></li>
+      <li class=""><a title="微服務中台" href="/pins/3044"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/044/webp/9787115553157.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/044/pjpeg/9787115553157.jpg" /></picture></a></li>
+  </ul>
+</section>
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><a data-book="Spring Boot" href="/pins/3107"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/107/webp/Spring_boot.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/107/pjpeg/Spring_boot.jpg" /></picture></a></div>
+    <div class="swiper-slide"><a data-book="暑假書單" href="/pins/3099"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/099/webp/202107_%E6%9A%91%E5%81%87%E6%9B%B8%E5%96%AE-bn.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/099/pjpeg/202107_%E6%9A%91%E5%81%87%E6%9B%B8%E5%96%AE-bn.jpg" /></picture></a></div>
+    <div class="swiper-slide"><a data-book="CISSP" href="/pins/3093"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/093/webp/202107_isc-cissp.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/093/pjpeg/202107_isc-cissp.jpg" /></picture></a></div>
+    <div class="swiper-slide"><a data-book="DDD" href="/pins/2962"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/002/962/webp/9787111666301.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/002/962/pjpeg/9787111666301.jpg" /></picture></a></div>
+    <div class="swiper-slide"><a data-book="爬蟲" href="/pins/3105"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/105/webp/MP22141_Banner_1800x410.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/105/pjpeg/MP22141_Banner_1800x410.jpg" /></picture></a></div>
+    <div class="swiper-slide"><a data-book="AWS" href="/pins/3083"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/083/webp/1800X410.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/083/pjpeg/1800X410.jpg" /></picture></a></div>
+    <div class="swiper-slide"><a data-book="Spring" href="/pins/3081"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/081/webp/1800X410.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/081/pjpeg/1800X410.jpg" /></picture></a></div>
+    <div class="swiper-slide"><a data-book="深度學習" href="/pins/3071"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/071/webp/%E6%97%97%E6%A8%99%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-bn.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/071/pjpeg/%E6%97%97%E6%A8%99%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-bn.jpg" /></picture></a></div>
+    <div class="swiper-slide"><a data-book="O&#39;reilly" href="/pins/3065"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/065/webp/33_bn.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/065/pjpeg/33_bn.jpg" /></picture></a></div>
+    <div class="swiper-slide"><a data-book="CQRS" href="/pins/3059"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/059/webp/MP12030_Banner_1800x410.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/059/pjpeg/MP12030_Banner_1800x410.jpg" /></picture></a></div>
+    <div class="swiper-slide"><a data-book="微服務中台" href="/pins/3044"><picture><source type="image/webp" srcset="https://cf-assets2.tenlong.com.tw/pins/images/000/003/044/webp/9787115553157.webp" /><img src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/044/pjpeg/9787115553157.jpg" /></picture></a></div>
+  </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
+
+
+<div class="content">
+
+  <h2> 
+    <a class="mx-3" href="/zh_tw/recent">中文新書</a>
+    <a class="mx-3" href="/zh_tw/recent?stock=preorder">預購專區</a>
+    <a class="mx-3" href="/zh_tw/recent_bestselling?range=7">銷售排行</a>
+  </h2>
+  <div class="book-list book-list-carousel">
+    <div class="list-wrapper">
+      <ul class="">
+        
+<li class="single-book">
+  <a class="cover" href="/products/9789864348008?list_name=i-r-zh_tw">
+
+      <img alt="JavaScript 爬蟲新思路！從零開始帶你用 Node.js 打造 FB＆IG 爬蟲專案（iT邦幫忙鐵人賽系列書）-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/164/517/medium/MP22141.jpg?1626339766" />
+
+    <span class="label-orange">預購78折</span>
+
+
+</a>  <div class="pricing">
+      <del>$620</del>
+
+      $484
+    <form class="button_to" method="post" action="/cart?id=9789864348008&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="CJ4W++V5QCS73sy5jZzy+0mf//YJv8EPApaHjHatiNQdZWCvq+/iYkq8PavAuOUEwS96o0VRMb46mWdNnebFTg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="JavaScript 爬蟲新思路！從零開始帶你用 Node.js 打造 FB＆IG 爬蟲專案（iT邦幫忙鐵人賽系列書）" href="/products/9789864348008?list_name=i-r-zh_tw">JavaScript 爬蟲新思路！從零開始帶你用 Node.js 打造 FB＆IG 爬蟲專案（iT邦幫忙鐵人賽系列書）</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789865028640?list_name=i-r-zh_tw">
+
+      <img alt="Python 演算法交易 (Python for Algorithmic Trading)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/164/482/medium/9789865028640.jpg?1626333490" />
+
+    <span class="label-orange">預購79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$680</del>
+
+      $537
+    <form class="button_to" method="post" action="/cart?id=9789865028640&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="7Dz5l8y+G3JHrsz3dBmqpYJuQn5IV0BTIloxrUF+vQD5x4/Dgii5NLbMPeU5Pb1aCt7HKwS5sOIaVdFsqjXwmg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Python 演算法交易 (Python for Algorithmic Trading)" href="/products/9789865028640?list_name=i-r-zh_tw">Python 演算法交易 (Python for Algorithmic Trading)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789863126720?list_name=i-r-zh_tw">
+
+      <img alt="自學機器學習 - 上 Kaggle 接軌世界，成為資料科學家-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/164/481/medium/F1366_%E5%A4%A9%E7%93%8F.jpg?1626240465" />
+
+    <span class="label-orange">預購75折</span>
+
+
+</a>  <div class="pricing">
+      <del>$680</del>
+
+      $510
+    <form class="button_to" method="post" action="/cart?id=9789863126720&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="3IA2YVVaUZUb/VbE2LCzwZMHJQ/yx0dXi4T1gOSROXbJe0A1G8zz0+qfp9aVlKQ+G7egWr4pt+azixVBD9p07A==" /></form>  </div>
+
+  <strong class="title">
+    <a title="自學機器學習 - 上 Kaggle 接軌世界，成為資料科學家" href="/products/9789863126720?list_name=i-r-zh_tw">自學機器學習 - 上 Kaggle 接軌世界，成為資料科學家</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789865028756?list_name=i-r-zh_tw">
+
+      <img alt="資料結構 -- 使用 Python, 2/e-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/164/323/medium/9789865028756.jpg?1625734985" />
+
+    <span class="label-blue">79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$540</del>
+
+      $427
+    <form class="button_to" method="post" action="/cart?id=9789865028756&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="QyVfVYadQs0FlyaoyKVWS7g99o1HMgvL9Sd5VXzxlwVW3ikByAvgi/T117qFgUG0MI1z2Avc+3rNKJmUl7ranw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="資料結構 -- 使用 Python, 2/e" href="/products/9789865028756?list_name=i-r-zh_tw">資料結構 -- 使用 Python, 2/e</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789864347971?list_name=i-r-zh_tw">
+
+      <img alt="多元裝置時代的 UI/UX 設計法則：打造出讓使用者完美體驗的好用介面, 2/e-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/164/296/medium/MP11918.jpg?1625638243" />
+
+    <span class="label-blue">78折</span>
+
+
+</a>  <div class="pricing">
+      <del>$450</del>
+
+      $351
+    <form class="button_to" method="post" action="/cart?id=9789864347971&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="HfG7E0lYUiEkEbP8M2tHxf/bx4xnpmwl/iPo9fVTQ4oICs1HB87wZ9VzQu5+T1A6d2tC2StInJTGLAg0HhgOEA==" /></form>  </div>
+
+  <strong class="title">
+    <a title="多元裝置時代的 UI/UX 設計法則：打造出讓使用者完美體驗的好用介面, 2/e" href="/products/9789864347971?list_name=i-r-zh_tw">多元裝置時代的 UI/UX 設計法則：打造出讓使用者完美體驗的好用介面, 2/e</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789865028862?list_name=i-r-zh_tw">
+
+      <img alt="Python 架站特訓班：Django 3 最強實戰, 2/e (附影音/範例)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/164/235/medium/9789865028862.jpg?1625476492" />
+
+    <span class="label-blue">79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$480</del>
+
+      $379
+    <form class="button_to" method="post" action="/cart?id=9789865028862&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="UtfzdlA1Bv7Ep+9cAKY/wtkGpIRzq9r8HcEa8Gsx8ExHLIUiHqOkuDXFHk5Ngig9UbYh0T9FKk0lzvoxgHq91g==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Python 架站特訓班：Django 3 最強實戰, 2/e (附影音/範例)" href="/products/9789865028862?list_name=i-r-zh_tw">Python 架站特訓班：Django 3 最強實戰, 2/e (附影音/範例)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789864347957?list_name=i-r-zh_tw">
+
+      <img alt="超大流量系統解決方案: 大型網站架構師的經驗分享-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/970/medium/MP12029.jpg?1625057630" />
+
+    <span class="label-blue">78折</span>
+
+
+</a>  <div class="pricing">
+      <del>$690</del>
+
+      $538
+    <form class="button_to" method="post" action="/cart?id=9789864347957&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="6a1LLh1SkOCwoTg31hFI+ERb7PE+4JUJPD+KXdYwlYn8Vj16U8QypkHDySWbNV8HzOtppHIOZbgEMGqcPXvYEw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="超大流量系統解決方案: 大型網站架構師的經驗分享" href="/products/9789864347957?list_name=i-r-zh_tw">超大流量系統解決方案: 大型網站架構師的經驗分享</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789860776089?list_name=i-r-zh_tw">
+
+      <img alt="架構師帶你做敏捷測試：在真正專案中應用-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/969/medium/DM2134_3D.jpg?1625057137" />
+
+    <span class="label-blue">79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$720</del>
+
+      $569
+    <form class="button_to" method="post" action="/cart?id=9789860776089&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="O3SUgxttQPPNn2j87+xzE0UFrXDEQ6kmjZtEo+++eIsuj+LXVfvitTz9me6iyGTszbUoJYitWZe1lKRiBPU1EQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="架構師帶你做敏捷測試：在真正專案中應用" href="/products/9789860776089?list_name=i-r-zh_tw">架構師帶你做敏捷測試：在真正專案中應用</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789860776140?list_name=i-r-zh_tw">
+
+      <img alt="NoSQL 開發完美方案：Redis + Docker 高性能虛擬化實戰-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/968/medium/DM2136_3D-750x933.jpg?1625056655" />
+
+    <span class="label-blue">79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,200</del>
+
+      $948
+    <form class="button_to" method="post" action="/cart?id=9789860776140&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="zRtGMIUkL0ylheiTNJsk7yCDdhvU0lcNMPOPFfd4epjY4DBky7KNClTnGYF5vzMQqDPzTpg8p7wI/G/UHDM3Ag==" /></form>  </div>
+
+  <strong class="title">
+    <a title="NoSQL 開發完美方案：Redis + Docker 高性能虛擬化實戰" href="/products/9789860776140?list_name=i-r-zh_tw">NoSQL 開發完美方案：Redis + Docker 高性能虛擬化實戰</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789860776072?list_name=i-r-zh_tw">
+
+      <img alt="極黑駭客專用的 OS：Kali Linux2 無差別全網滲透-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/967/medium/DM2135_1000X1350.jpg?1625056121" />
+
+    <span class="label-blue">79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$780</del>
+
+      $616
+    <form class="button_to" method="post" action="/cart?id=9789860776072&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="ttl2H0hFdzoeD/qZ2SV6ijOI3obYwD2vI2uBqIhuwUCjIgBLBtPVfO9tC4uUAW11uzhb05QuzR4bZGFpYyWM2g==" /></form>  </div>
+
+  <strong class="title">
+    <a title="極黑駭客專用的 OS：Kali Linux2 無差別全網滲透" href="/products/9789860776072?list_name=i-r-zh_tw">極黑駭客專用的 OS：Kali Linux2 無差別全網滲透</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789860776096?list_name=i-r-zh_tw">
+
+      <img alt="網路封包大剖析：HTTP 介面自動化測試原理-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/958/medium/DM2133-%E7%AB%8B%E9%AB%94%E6%9B%B8.jpg?1625050446" />
+
+    <span class="label-blue">79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$720</del>
+
+      $569
+    <form class="button_to" method="post" action="/cart?id=9789860776096&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="KkcMthvghhDxtUhSAHLPCGKl1CEPD/3W5RNfvN+V6Ak/vHriVXYkVgDXuUBNVtj36hVRdEPhDWfdHL99NN6lkw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="網路封包大剖析：HTTP 介面自動化測試原理" href="/products/9789860776096?list_name=i-r-zh_tw">網路封包大剖析：HTTP 介面自動化測試原理</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789863126737?list_name=i-r-zh_tw">
+
+      <img alt="核心開發者親授！PyTorch 深度學習攻略 (Deep Learning with Pytorch)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/772/medium/9789863126737__%E5%A4%A9%E9%BE%8D.jpg?1624860616" />
+
+    <span class="label-orange">預購75折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,000</del>
+
+      $750
+    <form class="button_to" method="post" action="/cart?id=9789863126737&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="igE0UDa/cnMtoHbdNLrFpEGPPF1h9xRd75gc+eYcnuif+kIEeCnQNdzCh895ntJbyT+5CC0Z5OzXl/w4DVfTcg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="核心開發者親授！PyTorch 深度學習攻略 (Deep Learning with Pytorch)" href="/products/9789863126737?list_name=i-r-zh_tw">核心開發者親授！PyTorch 深度學習攻略 (Deep Learning with Pytorch)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789865028763?list_name=i-r-zh_tw">
+
+      <img alt="CSS 視覺辭典 (CSS Visual Dictionary)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/498/medium/9789865028763.jpg?1625208901" />
+
+    <span class="label-blue">79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$520</del>
+
+      $411
+    <form class="button_to" method="post" action="/cart?id=9789865028763&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="OZPY+P/bNHsntDtDAQzaYSlYwK7IneoQOdZ0SJUW038saK6ssU2WPdbWylFMKM2eoehF+4RzGqEB2ZSJfl2e5Q==" /></form>  </div>
+
+  <strong class="title">
+    <a title="CSS 視覺辭典 (CSS Visual Dictionary)" href="/products/9789865028763?list_name=i-r-zh_tw">CSS 視覺辭典 (CSS Visual Dictionary)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789864347926?list_name=i-r-zh_tw">
+
+      <img alt="CQRS 命令查詢職責分離模式 (Command Query Responsibility Segregation)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/481/medium/9789864347926_bc.jpg?1624354978" />
+
+    <span class="label-blue">78折</span>
+
+
+</a>  <div class="pricing">
+      <del>$500</del>
+
+      $390
+    <form class="button_to" method="post" action="/cart?id=9789864347926&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="rGj2Do+vevtq8rQCZY7LAK2NcGW293ohdYsiqSMC06W5k4BawTnYvZuQRRAoqtz/JT31MPoZipBNhMJoyEmePw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="CQRS 命令查詢職責分離模式 (Command Query Responsibility Segregation)" href="/products/9789864347926?list_name=i-r-zh_tw">CQRS 命令查詢職責分離模式 (Command Query Responsibility Segregation)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789864347933?list_name=i-r-zh_tw">
+
+      <img alt="圖解 TCP/IP-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/476/medium/9789864347933_bc.jpg?1624353316" />
+
+    <span class="label-blue">78折</span>
+
+
+</a>  <div class="pricing">
+      <del>$500</del>
+
+      $390
+    <form class="button_to" method="post" action="/cart?id=9789864347933&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="/+NY4dRjVwQxjxMhKAUWiKtkLoYmu0uXsP0x3Xy5JU3qGC61mvX1QsDt4jNlIQF3I9Sr02pVuyaI8tEcl/Jo1w==" /></form>  </div>
+
+  <strong class="title">
+    <a title="圖解 TCP/IP" href="/products/9789864347933?list_name=i-r-zh_tw">圖解 TCP/IP</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789865028619?list_name=i-r-zh_tw">
+
+      <img alt="Spring Boot：建置與執行 (Spring Boot: Up and Running: Building Cloud Native Java and Kotlin Applications)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/456/medium/9789865028619.jpg?1624514703" />
+
+    <span class="label-blue">79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$580</del>
+
+      $458
+    <form class="button_to" method="post" action="/cart?id=9789865028619&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="EBYVPxGUmtP82MOTMB8mH8+zVsZJJGwY80O/RkDHa7gF7WNrXwI4lQ26MoF9OzHgRwPTkwXKnKnLTF+Hq4wmIg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Spring Boot：建置與執行 (Spring Boot: Up and Running: Building Cloud Native Java and Kotlin Applications)" href="/products/9789865028619?list_name=i-r-zh_tw">Spring Boot：建置與執行 (Spring Boot: Up and Running: Building Cloud Native Java and Kotlin Applications)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789864347896?list_name=i-r-zh_tw">
+
+      <img alt="Clean Code 學派的風格實踐：重構遺留 Codebase，突破 C# 效能瓶頸 (Clean Code in C#: Refactor your legacy C# code base and improve application performance by applying best practices)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/451/medium/MP12105.jpg?1624261176" />
+
+    <span class="label-blue">78折</span>
+
+
+</a>  <div class="pricing">
+      <del>$690</del>
+
+      $538
+    <form class="button_to" method="post" action="/cart?id=9789864347896&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="LHh1MKWyVVWfekbGKPwnrNghWcCl091VHtW4jFIUgt85gwNk6yT3E24Yt9Rl2DBTUJHclek9LeQm2lhNuV/PRQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Clean Code 學派的風格實踐：重構遺留 Codebase，突破 C# 效能瓶頸 (Clean Code in C#: Refactor your legacy C# code base and improve application performance by applying best practices)" href="/products/9789864347896?list_name=i-r-zh_tw">Clean Code 學派的風格實踐：重構遺留 Codebase，突破 C# 效能瓶頸 (Clean Code in C#: Refactor your legacy C# code base and improve application performance by applying best practices)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789865028381?list_name=i-r-zh_tw">
+
+      <img alt="金融AI｜人工智慧的金融應用-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/350/medium/A654.jpg?1623997250" />
+
+    <span class="label-blue">79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$880</del>
+
+      $695
+    <form class="button_to" method="post" action="/cart?id=9789865028381&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="Hd4417ielUDDnLy2aBxFug3e49Ld7eHukIxbpel4pHsIJU6D9gg3BjL+TaQlOFJFhW5mh5EDEV+og7tkAjPp4Q==" /></form>  </div>
+
+  <strong class="title">
+    <a title="金融AI｜人工智慧的金融應用" href="/products/9789865028381?list_name=i-r-zh_tw">金融AI｜人工智慧的金融應用</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789864347834?list_name=i-r-zh_tw">
+
+      <img alt="Ubuntu 20 管理入門與實作-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/322/medium/MP32021.jpg?1623919915" />
+
+    <span class="label-blue">78折</span>
+
+
+</a>  <div class="pricing">
+      <del>$600</del>
+
+      $468
+    <form class="button_to" method="post" action="/cart?id=9789864347834&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="09ToaeCVSRNG2xjsaoU7uOqhhw359wK3KVbw36XGvr7GL549rgPrVbe56f4noSxHYhECWLUZ8gYRWRAeTo3zJA==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Ubuntu 20 管理入門與實作" href="/products/9789864347834?list_name=i-r-zh_tw">Ubuntu 20 管理入門與實作</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9789863126706?list_name=i-r-zh_tw">
+
+      <img alt="完全自學！Go 語言 (Golang) 實戰聖經 (The Go Workshop: Learn to write clean, efficient code and build high-performance applications with Go)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/294/medium/9789863126706_%E5%A4%A9%E7%93%8F%E7%89%88.jpg?1623907667" />
+
+    <span class="label-blue">79折</span>
+
+
+</a>  <div class="pricing">
+      <del>$880</del>
+
+      $695
+    <form class="button_to" method="post" action="/cart?id=9789863126706&amp;list_name=i-r-zh_tw"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="MBicFLyvBlhxCfgSPiEl60t77DIKj7uskmcYPnnl4r4l4+pA8jmkHoBrCQBzBTIUw8tpZ0ZhSx2qaPj/kq6vJA==" /></form>  </div>
+
+  <strong class="title">
+    <a title="完全自學！Go 語言 (Golang) 實戰聖經 (The Go Workshop: Learn to write clean, efficient code and build high-performance applications with Go)" href="/products/9789863126706?list_name=i-r-zh_tw">完全自學！Go 語言 (Golang) 實戰聖經 (The Go Workshop: Learn to write clean, efficient code and build high-performance applications with Go)</a>
+  </strong>
+</li>
+
+			</ul>
+		</div>
+	</div>
+
+  <h2>
+    <a class="mx-3" href="/en/recent">英文新書</a>
+    <a class="mx-3" href="/en/recent?stock=preorder">預購專區</a>
+    <a class="mx-3" href="/en/recent_bestselling?range=7">銷售排行</a>  
+    <a class="mx-3" href="/specials">特價書籍</a>
+  </h2>
+  <div class="book-list book-list-carousel">
+    <div class="list-wrapper">
+      <ul>
+        
+<li class="single-book">
+  <a class="cover" href="/products/9781492052593?list_name=i-r-en">
+
+      <img alt="Programming Rust: Fast, Safe Systems Development, 2/e (Paperback)-cover" src="https://cf-assets2.tenlong.com.tw/ig/023/281/728/9781492052593.jpg?1623719952" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$2,130</del>
+
+      $2,024
+    <form class="button_to" method="post" action="/cart?id=9781492052593&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="8kTIY9X4sf8ARzemSxrK/0p4EKzVTNGdTc57T4uxXBznv743m24TufElxrQGPt0AwsiV+ZmiISx1wZuOYPoRhg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Programming Rust: Fast, Safe Systems Development, 2/e (Paperback)" href="/products/9781492052593?list_name=i-r-en">Programming Rust: Fast, Safe Systems Development, 2/e (Paperback)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781108995146?list_name=i-r-en">
+
+      <img alt="A First Course in Statistical Programming with R-cover" src="https://cf-assets2.tenlong.com.tw/ig/024/010/617/9781108995146.jpg?1617683999" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,580</del>
+
+      $1,501
+    <form class="button_to" method="post" action="/cart?id=9781108995146&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="J8pgJQVFntYEGA6SNWNL3dvtpBdeLsC4dnoesdNAm80yMRZxS9M8kPV6/4B4R1wiU10hQhLAMAlOdf5wOAvWVw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="A First Course in Statistical Programming with R" href="/products/9781108995146?list_name=i-r-en">A First Course in Statistical Programming with R</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781484268117?list_name=i-r-en">
+
+      <img alt="Introduction to Python for Kids: Learn Python the Fun Way by Completing Activities and Solving Puzzles-cover" src="https://cf-assets2.tenlong.com.tw/ig/023/768/558/9781484268117.jpg?1612831015" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,160</del>
+
+      $1,102
+    <form class="button_to" method="post" action="/cart?id=9781484268117&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="pdi/4dTxOM7aNSavpGb6dMWxRd/iizFDpNn1qGSzr8OwI8m1mmeaiCtX173pQu2LTQHAiq5lwfKc1hVpj/jiWQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Introduction to Python for Kids: Learn Python the Fun Way by Completing Activities and Solving Puzzles" href="/products/9781484268117?list_name=i-r-en">Introduction to Python for Kids: Learn Python the Fun Way by Completing Activities and Solving Puzzles</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781119790020?list_name=i-r-en">
+
+      <img alt="(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide &amp; Practice Tests Bundle-cover" src="https://cf-assets2.tenlong.com.tw/ig/023/283/334/9781119790020.jpg?1605575617" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$3,160</del>
+
+      $3,002
+    <form class="button_to" method="post" action="/cart?id=9781119790020&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="TiGE/sgnpuVLKk2PnWNueHji2wXPqKK5GZ54tUTa64lb2vKqhrEEo7pIvJ3QR3mH8FJeUINGUgghkZh0r5GmEw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide &amp; Practice Tests Bundle" href="/products/9781119790020?list_name=i-r-en">(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide &amp; Practice Tests Bundle</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781492061373?list_name=i-r-en">
+
+      <img alt="Behavioral Data Analysis with R and Python: Customer-Driven Data for Real Business Results-cover" src="https://cf-assets2.tenlong.com.tw/ig/023/643/066/9781492061373.jpg?1620721073" />
+
+    <span class="label-red">90折</span>
+
+
+</a>  <div class="pricing">
+
+      $1,854
+    <form class="button_to" method="post" action="/cart?id=9781492061373&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="eWP2CUsogjNySNf/9CDOjsUPnJinqgE9rtrOY5bo/ipsmIBdBb4gdYMqJu25BNlxTb8ZzetE8YyW1S6ifaOzsA==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Behavioral Data Analysis with R and Python: Customer-Driven Data for Real Business Results" href="/products/9781492061373?list_name=i-r-en">Behavioral Data Analysis with R and Python: Customer-Driven Data for Real Business Results</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781098101602?list_name=i-r-en">
+
+      <img alt="Powershell Cookbook: Your Complete Guide to Scripting the Ubiquitous Object-Based Shell-cover" src="https://cf-assets2.tenlong.com.tw/ig/023/642/971/9781098101602.jpg?1620714812" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$2,490</del>
+
+      $2,366
+    <form class="button_to" method="post" action="/cart?id=9781098101602&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="XvYC+lHsfTEOR3+qy2KkkE8f+0VUsi4uExHsNhy27T9LDXSuH3rfd/8ljriGRrNvx69+EBhc3p8rHgz39/2gpQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Powershell Cookbook: Your Complete Guide to Scripting the Ubiquitous Object-Based Shell" href="/products/9781098101602?list_name=i-r-en">Powershell Cookbook: Your Complete Guide to Scripting the Ubiquitous Object-Based Shell</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781108491594?list_name=i-r-en">
+
+      <img alt="Exploring Malicious Hacker Communities: Toward Proactive Cyber-Defense-cover" src="https://cf-assets2.tenlong.com.tw/ig/023/680/419/9781108491594.jpg?1614659065" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$2,030</del>
+
+      $1,929
+    <form class="button_to" method="post" action="/cart?id=9781108491594&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="sEFlmVT42V++MFEMtBIyCHJozdBDAjZ07iJp5PZezvOluhPNGm57GU9SoB75NiX3+thIhQ/sxsXWLYklHRWDaQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Exploring Malicious Hacker Communities: Toward Proactive Cyber-Defense" href="/products/9781108491594?list_name=i-r-en">Exploring Malicious Hacker Communities: Toward Proactive Cyber-Defense</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781119787631?list_name=i-r-en">
+
+      <img alt="(ISC)2 CISSP Certified Information Systems Security Professional Official Practice Tests 3rd -cover" src="https://cf-assets2.tenlong.com.tw/ig/023/137/686/9781119787631.jpg?1622511647" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,300</del>
+
+      $1,235
+    <form class="button_to" method="post" action="/cart?id=9781119787631&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="IwJ00T+JRFbACmo96xp9hhHK6rywSYCzOxOFrPuMYec2+QKFcR/mEDFomy+mPmp5mXpv6fyncAIDHGVtEMcsfQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="(ISC)2 CISSP Certified Information Systems Security Professional Official Practice Tests 3rd " href="/products/9781119787631?list_name=i-r-en">(ISC)2 CISSP Certified Information Systems Security Professional Official Practice Tests 3rd </a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781492083818?list_name=i-r-en">
+
+      <img alt="Hybrid Cloud Apps with Openshift and Kubernetes: Delivering Highly Available Applications and Services-cover" src="https://cf-assets2.tenlong.com.tw/ig/024/157/664/9781492083818.jpg?1622509334" />
+
+    <span class="label-red">90折</span>
+
+
+</a>  <div class="pricing">
+
+      $1,638
+    <form class="button_to" method="post" action="/cart?id=9781492083818&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="m9leRzTFj5QA+EVZFIJb3fFzU8TqCtHkYWy804FpYB6OIigTelMt0vGatEtZpkwiecPWkabkIVVZY1wSaiIthA==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Hybrid Cloud Apps with Openshift and Kubernetes: Delivering Highly Available Applications and Services" href="/products/9781492083818?list_name=i-r-en">Hybrid Cloud Apps with Openshift and Kubernetes: Delivering Highly Available Applications and Services</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781718500723?list_name=i-r-en">
+
+      <img alt="Deep Learning: A Visual Approach-cover" src="https://cf-assets2.tenlong.com.tw/ig/022/644/729/9781718500723.jpg?1619492474" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$3,040</del>
+
+      $2,888
+    <form class="button_to" method="post" action="/cart?id=9781718500723&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="+Bv3/3OsKQ+NATaoZyxDiABlP9VWZwgzo0pKy/nzm0bt4IGrPTqLSXxjx7oqCFR3iNW6gBqJ+IKbRaoKErjW3A==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Deep Learning: A Visual Approach" href="/products/9781718500723?list_name=i-r-en">Deep Learning: A Visual Approach</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781484270639?list_name=i-r-en">
+
+      <img alt="Powershell for Beginners: Learn Powershell 7 Through Hands-On Mini Games-cover" src="https://cf-assets2.tenlong.com.tw/ig/024/724/695/9781484270639.jpg?1623720293" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,410</del>
+
+      $1,340
+    <form class="button_to" method="post" action="/cart?id=9781484270639&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="IrBLJr6+DgbqZCgxGAxYb2/agjANLnBi6FTIHAVxzyk3Sz1y8CisQBsG2SNVKE+Q52oHZUHAgNPQWyjd7jqCsw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Powershell for Beginners: Learn Powershell 7 Through Hands-On Mini Games" href="/products/9781484270639?list_name=i-r-en">Powershell for Beginners: Learn Powershell 7 Through Hands-On Mini Games</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781838829506?list_name=i-r-en">
+
+      <img alt="Python Ethical Hacking from Scratch: Think like an ethical hacker, avoid detection, and successfully develop, deploy, detect, and avoid malware-cover" src="https://cf-assets2.tenlong.com.tw/ig/024/674/681/9781838829506.jpg?1622518056" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,300</del>
+
+      $1,235
+    <form class="button_to" method="post" action="/cart?id=9781838829506&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="V5/Kejb4jLk6+IVayaaloZLGMZhE1MO9CpJq9TH5PnxCZLwueG4u/8uadEiEgrJeGna0zQg6MwwynYo02rJz5g==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Python Ethical Hacking from Scratch: Think like an ethical hacker, avoid detection, and successfully develop, deploy, detect, and avoid malware" href="/products/9781838829506?list_name=i-r-en">Python Ethical Hacking from Scratch: Think like an ethical hacker, avoid detection, and successfully develop, deploy, detect, and avoid malware</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781119786238?list_name=i-r-en">
+
+      <img alt="(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide 9th-cover" src="https://cf-assets2.tenlong.com.tw/ig/023/025/837/9781119786238.jpg?1622511776" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$2,250</del>
+
+      $2,138
+    <form class="button_to" method="post" action="/cart?id=9781119786238&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="ZBaYqIIJpBu7+Dmod9w9PVdX+ExYbqDUE8tU6it6F2Bx7e78zJ8GXUqayLo6+CrC3+d9GRSAUGUrxLQrwDFa+g==" /></form>  </div>
+
+  <strong class="title">
+    <a title="(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide 9th" href="/products/9781119786238?list_name=i-r-en">(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide 9th</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781718500587?list_name=i-r-en">
+
+      <img alt="Arduino Workshop, 2nd Edition: A Hands-On Introduction with 65 Projects-cover" src="https://cf-assets2.tenlong.com.tw/ig/022/966/930/9781718500587.jpg?1618882505" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,160</del>
+
+      $1,102
+    <form class="button_to" method="post" action="/cart?id=9781718500587&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="VoelPu7skCyiVXySZA2zoWdV02w3RVQD/9tzrIV8aABDfNNqoHoyalM3jYApKaRe7+VWOXurpLLH1JNtbjclmg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Arduino Workshop, 2nd Edition: A Hands-On Introduction with 65 Projects" href="/products/9781718500587?list_name=i-r-en">Arduino Workshop, 2nd Edition: A Hands-On Introduction with 65 Projects</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781119755463?list_name=i-r-en">
+
+      <img alt="Iapp Cipp / Us Certified Information Privacy Professional Study Guide-cover" src="https://cf-assets2.tenlong.com.tw/ig/024/383/751/9781119755463.jpg?1622512949" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,560</del>
+
+      $1,482
+    <form class="button_to" method="post" action="/cart?id=9781119755463&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="oiM7DGHXeNaSF92j6Aiv2H+dyhjnz8tr8rhlkxAE/qq32E1YL0HakGN1LLGlLLgn9y1PTashO9rKt4VS+0+zMA==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Iapp Cipp / Us Certified Information Privacy Professional Study Guide" href="/products/9781119755463?list_name=i-r-en">Iapp Cipp / Us Certified Information Privacy Professional Study Guide</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781119776871?list_name=i-r-en">
+
+      <img alt="The Consulting Bible: How to Launch and Grow a Seven-Figure Consulting Business-cover" src="https://cf-assets2.tenlong.com.tw/ig/023/249/463/9781119776871.jpg?1621304149" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$880</del>
+
+      $836
+    <form class="button_to" method="post" action="/cart?id=9781119776871&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="v/nH2YttzK7a2BUqcSXxoPdQfsshN5a9mwNkpRUlkLiqArGNxftu6Cu65Dg8AeZff+D7nm3ZZgyjDIRk/m7dIg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="The Consulting Bible: How to Launch and Grow a Seven-Figure Consulting Business" href="/products/9781119776871?list_name=i-r-en">The Consulting Bible: How to Launch and Grow a Seven-Figure Consulting Business</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781617296130?list_name=i-r-en">
+
+      <img alt="Learn Quantum Computing with Python and Q#: A Hands-On Approach-cover" src="https://cf-assets2.tenlong.com.tw/ig/022/178/181/9781617296130.jpg?1623115021" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,900</del>
+
+      $1,805
+    <form class="button_to" method="post" action="/cart?id=9781617296130&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="HfM+WitsefdV876owOTmFFl2r5R32VjUtbV9phiQTt0ICEgOZfrbsaSRT7qNwPHr0cYqwTs3qGWNup1n89sDRw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Learn Quantum Computing with Python and Q#: A Hands-On Approach" href="/products/9781617296130?list_name=i-r-en">Learn Quantum Computing with Python and Q#: A Hands-On Approach</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781718501324?list_name=i-r-en">
+
+      <img alt="Learn to Code by Solving Problems: A Python Programming Primer-cover" src="https://cf-assets2.tenlong.com.tw/ig/023/662/346/9781718501324.jpg?1621314077" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,160</del>
+
+      $1,102
+    <form class="button_to" method="post" action="/cart?id=9781718501324&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="mwNE47j8VNddrGobGyXU5pUzgvfdMPpG6qXiyiB0/eWO+DK39mr2kazOmwlWAcMZHYMHopHeCvfSqgILyz+wfw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Learn to Code by Solving Problems: A Python Programming Primer" href="/products/9781718501324?list_name=i-r-en">Learn to Code by Solving Problems: A Python Programming Primer</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781484257777?list_name=i-r-en">
+
+      <img alt="Microsoft 365 Compliance: A Practical Guide to Managing Risk-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/158/023/medium/office365.jpg?1615023520" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,500</del>
+
+      $1,425
+    <form class="button_to" method="post" action="/cart?id=9781484257777&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="G1/baEiPKk0dmUPDFAsDxqH6OLhan6Dbxh4zQ/LK5PoOpK08BhmIC+z7stFZLxQ5KUq97RZxUGr+EdOCGYGpYA==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Microsoft 365 Compliance: A Practical Guide to Managing Risk" href="/products/9781484257777?list_name=i-r-en">Microsoft 365 Compliance: A Practical Guide to Managing Risk</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9781839212277?list_name=i-r-en">
+
+      <img alt="Malware Analysis Techniques: Tricks for the triage of adversarial software-cover" src="https://cf-assets2.tenlong.com.tw/ig/024/671/505/9781839212277.jpg?1622517193" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,560</del>
+
+      $1,482
+    <form class="button_to" method="post" action="/cart?id=9781839212277&amp;list_name=i-r-en"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="LyLnr5Pgln42t/26K/O6PmleVVVj6Bqx+hR7uWHtG8M62ZH73XY0OMfVDKhm163B4e7QAC8G6gDCG5t4iqZWWQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Malware Analysis Techniques: Tricks for the triage of adversarial software" href="/products/9781839212277?list_name=i-r-en">Malware Analysis Techniques: Tricks for the triage of adversarial software</a>
+  </strong>
+</li>
+
+      </ul>
+    </div>
+  </div>
+
+  <h2>
+    <a class="mx-3" href="/zh_cn/recent">簡中新書</a>
+    <a class="mx-3" href="/zh_cn/recent?stock=preorder">預購專區</a>
+    <a class="mx-3" href="/zh_cn/recent_bestselling?range=7">銷售排行</a>  
+  </h2>
+  <div class="book-list book-list-carousel">
+    <div class="list-wrapper">
+      <ul>
+        
+<li class="single-book">
+  <a class="cover" href="/products/9787115563163?list_name=i-r-zh_cn">
+
+      <img alt="領域特定語言-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/163/591/medium/56316lt.jpg?1624695953" />
+
+    <span class="label-orange">預購85折</span>
+
+
+</a>  <div class="pricing">
+
+      $764
+    <form class="button_to" method="post" action="/cart?id=9787115563163&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="x0yHPlQWJbvUxMEqPdlMzqvlqCREUP/1e/nIjkQ9r6zSt/FqGoCH/SWmMDhw/VsxI1UtcQi+D0RD9ihPr3biNg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="領域特定語言" href="/products/9787115563163?list_name=i-r-zh_cn">領域特定語言</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787111684756?list_name=i-r-zh_cn">
+
+      <img alt="Windows 內核編程-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/164/013/medium/1070139369131.jpg?1625216169" />
+
+    <span class="label-orange">預購85折</span>
+
+
+</a>  <div class="pricing">
+
+      $607
+    <form class="button_to" method="post" action="/cart?id=9787111684756&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="QCpX4HfFbbN5HEU1pANRvBAVoxptswbw4ZWAbe+ufPtV0SG0OVPP9Yh+tCfpJ0ZDmKUmTyFd9kHZmmCsBOUxYQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Windows 內核編程" href="/products/9787111684756?list_name=i-r-zh_cn">Windows 內核編程</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787111683674?list_name=i-r-zh_cn">
+
+      <img alt="Rust 實戰：從入門到精通 (Beginning Rust: From Novice to Professional)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/164/022/medium/147880165447813.jpg?1625223461" />
+
+    <span class="label-red">85折</span>
+
+
+</a>  <div class="pricing">
+
+      $505
+    <form class="button_to" method="post" action="/cart?id=9787111683674&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="/1u6Hm+EJxK+Mv81hPy+wkVc2IaU3p3mRZFju2QqvmLqoMxKIRKFVE9QDifJ2Kk9zexd09gwbVd9noN6j2Hz+A==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Rust 實戰：從入門到精通 (Beginning Rust: From Novice to Professional)" href="/products/9787111683674?list_name=i-r-zh_cn">Rust 實戰：從入門到精通 (Beginning Rust: From Novice to Professional)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787121409981?list_name=i-r-zh_cn">
+
+      <img alt="Kubernetes 權威指南：從 Docker 到 Kubernetes 實踐全接觸, 5/e-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/565/medium/6f4ca0043cc33382.jpg?1620446553" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$1,439</del>
+
+      $1,367
+    <form class="button_to" method="post" action="/cart?id=9787121409981&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="u6SlULgaLmKtW+oF96Mq9HEnc9l7aINib5DX8fL8qieuX9ME9oyMJFw5Gxe6hz0L+Zf2jDeGc9NXnzcwGbfnvQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Kubernetes 權威指南：從 Docker 到 Kubernetes 實踐全接觸, 5/e" href="/products/9787121409981?list_name=i-r-zh_cn">Kubernetes 權威指南：從 Docker 到 Kubernetes 實踐全接觸, 5/e</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787115552549?list_name=i-r-zh_cn">
+
+      <img alt="精通 Rust, 2/e (Mastering Rust: Learn about memory safety, type system, concurrency, and the new features of Rust 2018 edition, 2/e)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/156/169/medium/55254lt.jpg?1609646341" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$834</del>
+
+      $792
+    <form class="button_to" method="post" action="/cart?id=9787115552549&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="YKz1jCdszAv9KN4Vet0vzbDUXNUzcBpRFqK0CHd3Xtx1V4PYafpuTQxKLwc3+TgyOGTZgH+e6uAurVTJnDwTRg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="精通 Rust, 2/e (Mastering Rust: Learn about memory safety, type system, concurrency, and the new features of Rust 2018 edition, 2/e)" href="/products/9787115552549?list_name=i-r-zh_cn">精通 Rust, 2/e (Mastering Rust: Learn about memory safety, type system, concurrency, and the new features of Rust 2018 edition, 2/e)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787115560629?list_name=i-r-zh_cn">
+
+      <img alt="Python 電腦視覺和自然語言處理 開發機器人應用系統 (Artificial Vision and Language Processing for Robotics)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/161/574/medium/56062lt.jpg?1623478089" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$539</del>
+
+      $512
+    <form class="button_to" method="post" action="/cart?id=9787115560629&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="rPG38bWIVe/sjU60r6jON2WZ3+tV1qUO7qEL2fxZaSm5CsGl+x73qR3vv6bijNnI7Slavhk4Vb/WrusYFxIksw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Python 電腦視覺和自然語言處理 開發機器人應用系統 (Artificial Vision and Language Processing for Robotics)" href="/products/9787115560629?list_name=i-r-zh_cn">Python 電腦視覺和自然語言處理 開發機器人應用系統 (Artificial Vision and Language Processing for Robotics)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787111678465?list_name=i-r-zh_cn">
+
+      <img alt="雲原生數據中台：架構、方法論與實踐-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/403/medium/027afa75d99ca80c.jpg?1620453007" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$594</del>
+
+      $564
+    <form class="button_to" method="post" action="/cart?id=9787111678465&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="jsR+laQxOdEUJgYL3buoiB28iPQkSOw+6MeeVtsuNzibPwjB6qebl+VE9xmQn793lQwNoWimHI/QyH6XMGV6og==" /></form>  </div>
+
+  <strong class="title">
+    <a title="雲原生數據中台：架構、方法論與實踐" href="/products/9787111678465?list_name=i-r-zh_cn">雲原生數據中台：架構、方法論與實踐</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787115558855?list_name=i-r-zh_cn">
+
+      <img alt="Jupyter 入門與實戰-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/955/medium/55885lt.jpg?1621602689" />
+
+    <span class="label-red">85折</span>
+
+
+</a>  <div class="pricing">
+
+      $407
+    <form class="button_to" method="post" action="/cart?id=9787115558855&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="K/ED8/c6WI7l8x3jtstSHPy0+WjUYhxiIk3BzakT22U+CnWnuaz6yBSR7PH770XjdAR8PZiM7NMaQiEMQliW/w==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Jupyter 入門與實戰" href="/products/9787115558855?list_name=i-r-zh_cn">Jupyter 入門與實戰</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787115560124?list_name=i-r-zh_cn">
+
+      <img alt="全棧性能測試修煉寶典 JMeter 實戰, 2/e-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/960/medium/56012lt.jpg?1621601898" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$659</del>
+
+      $626
+    <form class="button_to" method="post" action="/cart?id=9787115560124&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="+OC52/cVSEnPLSrGRXUU9IH6zSLUdEK2ZPUb4ut9eivtG8+PuYPqDz5P29QIUQMLCUpId5iasgdc+vsjADY3sQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="全棧性能測試修煉寶典 JMeter 實戰, 2/e" href="/products/9787115560124?list_name=i-r-zh_cn">全棧性能測試修煉寶典 JMeter 實戰, 2/e</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787121409523?list_name=i-r-zh_cn">
+
+      <img alt="GraphPad Prism 學術圖表-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/161/007/medium/9787121409523.jpg?1621489142" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$654</del>
+
+      $621
+    <form class="button_to" method="post" action="/cart?id=9787121409523&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="QSLZu2UH5KLkXMwDZqqFtsl/s/+jAdE2924ANDWbsKZU2a/vK5FG5BU+PRErjpJJQc82qu/vIYfPYeD13tD9PA==" /></form>  </div>
+
+  <strong class="title">
+    <a title="GraphPad Prism 學術圖表" href="/products/9787121409523?list_name=i-r-zh_cn">GraphPad Prism 學術圖表</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787111679585?list_name=i-r-zh_cn">
+
+      <img alt="SaaS 商業實戰：好模式如何變成好生意-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/397/medium/1a5fb7add2487b99.jpg?1620454003" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$534</del>
+
+      $507
+    <form class="button_to" method="post" action="/cart?id=9787111679585&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="rGUjfQpztA6TkvSBjlaRsF+/Jvmxfgd05VP4Oyxp5J25nlUpROUWSGLwBZPDcoZP1w+jrP2Q98XdXBj6xyKpBw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="SaaS 商業實戰：好模式如何變成好生意" href="/products/9787111679585?list_name=i-r-zh_cn">SaaS 商業實戰：好模式如何變成好生意</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787302576839?list_name=i-r-zh_cn">
+
+      <img alt="Python 異步編程實戰 — 基於 AIO 的全棧開發技術-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/368/medium/088578-01.jpg?1619942915" />
+
+    <span class="label-red">80折</span>
+
+
+</a>  <div class="pricing">
+
+      $379
+    <form class="button_to" method="post" action="/cart?id=9787302576839&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="5OleESVVAqXaC4Ln6BsOp7vN7bA/sLNavaCsnucBk67xEihFa8Og4ytpc/WlPxlYM31o5XNeQ+uFr0xfDEreNA==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Python 異步編程實戰 — 基於 AIO 的全棧開發技術" href="/products/9787302576839?list_name=i-r-zh_cn">Python 異步編程實戰 — 基於 AIO 的全棧開發技術</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787569267563?list_name=i-r-zh_cn">
+
+      <img alt="Python GUI 設計 PyQt5 從入門到實踐 (全彩版)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/152/736/medium/9787569267563.jpg?1623668866" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$588</del>
+
+      $559
+    <form class="button_to" method="post" action="/cart?id=9787569267563&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="Rq60B9V1lxnZn9KvLkXnPGFYCjJQNrX80aK03QbCjZRTVcJTm+M1Xyj9I71jYfDD6eiPZxzYRU3prVQc7YnADg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Python GUI 設計 PyQt5 從入門到實踐 (全彩版)" href="/products/9787569267563?list_name=i-r-zh_cn">Python GUI 設計 PyQt5 從入門到實踐 (全彩版)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787115561459?list_name=i-r-zh_cn">
+
+      <img alt="WebAssembly 實戰 (WebAssembly in Action)-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/679/medium/56145lt.jpg?1620562585" />
+
+    <span class="label-red">85折</span>
+
+
+</a>  <div class="pricing">
+
+      $662
+    <form class="button_to" method="post" action="/cart?id=9787115561459&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="yxBB9BS0pVJdhbNtpwbm/Z8k1V0zVT8t0Dlf2POnFvDe6zegWiIHFKznQn/qIvECF5RQCH+7z5zoNr8ZGOxbag==" /></form>  </div>
+
+  <strong class="title">
+    <a title="WebAssembly 實戰 (WebAssembly in Action)" href="/products/9787115561459?list_name=i-r-zh_cn">WebAssembly 實戰 (WebAssembly in Action)</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787121408526?list_name=i-r-zh_cn">
+
+      <img alt="Flink實戰派（雙色版）-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/332/medium/9787121408526.jpg?1619863819" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$654</del>
+
+      $621
+    <form class="button_to" method="post" action="/cart?id=9787121408526&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="7TLI+cNMPOIdQW9zoSWnk+iiC8OV/VdVVfOFZG9nV8H4yb6tjdqepOwjnmHsAbBsYBKOltkTp+Rt/GWlhCwaWw==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Flink實戰派（雙色版）" href="/products/9787121408526?list_name=i-r-zh_cn">Flink實戰派（雙色版）</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787302573210?list_name=i-r-zh_cn">
+
+      <img alt="深入淺出深度學習-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/378/medium/081004-01.jpg?1619939403" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$299</del>
+
+      $284
+    <form class="button_to" method="post" action="/cart?id=9787302573210&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="9DRnw5tOwu4fJVvu93kyHCtQIXGmWhof1a4HShOlAh7hzxGX1dhgqO5Hqvy6XSXjo+CkJOq06q7toeeL+O5PhA==" /></form>  </div>
+
+  <strong class="title">
+    <a title="深入淺出深度學習" href="/products/9787302573210?list_name=i-r-zh_cn">深入淺出深度學習</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787121408229?list_name=i-r-zh_cn">
+
+      <img alt="深入集群：大型數據中心資源調度與管理-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/335/medium/9787121408229.jpg?1619863822" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$534</del>
+
+      $507
+    <form class="button_to" method="post" action="/cart?id=9787121408229&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="ja5Y9CY70+ONs/mBCH5h6TKYojKoKGnsMlg8Vhg2y1OYVS6gaK1xpXzRCJNFWnYWuignZ+TGmV0KV9yX832GyQ==" /></form>  </div>
+
+  <strong class="title">
+    <a title="深入集群：大型數據中心資源調度與管理" href="/products/9787121408229?list_name=i-r-zh_cn">深入集群：大型數據中心資源調度與管理</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787121408304?list_name=i-r-zh_cn">
+
+      <img alt="OpenCV 4 機器學習算法原理與編程實戰-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/341/medium/9787121408304.jpg?1619863823" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$648</del>
+
+      $616
+    <form class="button_to" method="post" action="/cart?id=9787121408304&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="yZravtqogqtGvK3PaB5d15DJM+F71zbvBXD59VbMC8TcYazqlD4g7bfeXN0lOkooGHm2tDc5xl49fxk0vYdGXg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="OpenCV 4 機器學習算法原理與編程實戰" href="/products/9787121408304?list_name=i-r-zh_cn">OpenCV 4 機器學習算法原理與編程實戰</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787111679363?list_name=i-r-zh_cn">
+
+      <img alt="架構師的自我修煉：技術、架構和未來-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/160/401/medium/19edf470d1e8392e.jpg?1620453239" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$534</del>
+
+      $507
+    <form class="button_to" method="post" action="/cart?id=9787111679363&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="Zv1TeIGic46MOZKWPUvvLrLXjIkQ/VrT3UQhW+bTd2pzBiUszzTRyH1bY4Rwb/jROmcJ3FwTqmLlS8GaDZg68A==" /></form>  </div>
+
+  <strong class="title">
+    <a title="架構師的自我修煉：技術、架構和未來" href="/products/9787111679363?list_name=i-r-zh_cn">架構師的自我修煉：技術、架構和未來</a>
+  </strong>
+</li>
+
+<li class="single-book">
+  <a class="cover" href="/products/9787111664475?list_name=i-r-zh_cn">
+
+      <img alt="Python 安全攻防：滲透測試實戰指南-cover" src="https://cf-assets2.tenlong.com.tw/products/images/000/153/677/medium/5204836-fm.jpg?1602680756" />
+
+    <span class="label-blue">VIP 95折</span>
+
+
+</a>  <div class="pricing">
+      <del>$594</del>
+
+      $564
+    <form class="button_to" method="post" action="/cart?id=9787111664475&amp;list_name=i-r-zh_cn"><button class="add-to-cart ml-1 px-2 rounded text-tl_blue hover:text-white hover:bg-tl_blue bg-gray-200" type="submit">
+      <i class="fa fa-shopping-cart"></i>
+</button><input type="hidden" name="authenticity_token" value="O6qFb/euvLZlzj4DuAYWbvqUmPdoCVPtfAG02PMQQ5AuUfM7uTge8JSszxH1IgGRciQdoiTno1xEDlQZGFsOCg==" /></form>  </div>
+
+  <strong class="title">
+    <a title="Python 安全攻防：滲透測試實戰指南" href="/products/9787111664475?list_name=i-r-zh_cn">Python 安全攻防：滲透測試實戰指南</a>
+  </strong>
+</li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <div class="content">
+    <h2>分類推薦書</h2>
+    <div class="category-cards">
+      <ul class="grid grid-cols-12">
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9789865024864?list_name=i-c">
+              <img alt="資料科學-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/148/534/medium/A615.jpg?1625560103" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/data-science">資料科學</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/python">Python</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/text-mining">Text-mining 文字探勘</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/data-visualization">Data-visualization 資料視覺化</a>
+                  </li>
+                <li class="more"><a href="/categories#%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781484265215?list_name=i-c">
+              <img alt="人工智慧-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/157/207/medium/41X7cB6xHXL._SX348_BO1_204_203_200_.jpg?1615004892" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/ai">人工智慧</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/computer-vision">Computer Vision 電腦視覺 </a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/reinforcement-learning">Reinforcement 強化學習</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/gan">GAN 生成對抗網絡</a>
+                  </li>
+                <li class="more"><a href="/categories#%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9789865025526?list_name=i-c">
+              <img alt="職涯發展-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/156/434/medium/ACL046731.jpg?1610094077" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/career">職涯發展</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/levelup">工程師自我提升 Levelup</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/interview">面試技巧</a>
+                  </li>
+                <li class="more"><a href="/categories#%E8%81%B7%E6%B6%AF%E7%99%BC%E5%B1%95">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781838984823?list_name=i-c">
+              <img alt="前端開發-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/023/512/211/9781838984823.jpg?1608606294" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/front-end">前端開發</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/react">React</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/angular">Angular</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/vuejs">Vue.js</a>
+                  </li>
+                <li class="more"><a href="/categories#%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9789863126287?list_name=i-c">
+              <img alt="網頁設計-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/156/750/medium/9789863126287_bc.jpg?1611121256" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/web-design">網頁設計</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/html">HTML</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/css">CSS</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/bootstrap">Bootstrap</a>
+                  </li>
+                <li class="more"><a href="/categories#%E7%B6%B2%E9%A0%81%E8%A8%AD%E8%A8%88">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781492077213?list_name=i-c">
+              <img alt="網站開發-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/156/365/medium/41q_z_9ne6L._SX379_BO1_204_203_200_.jpg?1625217832" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/web-development">網站開發</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/go">Go 程式語言</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/laravel">Laravel</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/ruby">Ruby</a>
+                  </li>
+                <li class="more"><a href="/categories#%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9787121385384?list_name=i-c">
+              <img alt="UI/UX-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/148/192/medium/FlVsD5NGjbc3EfSGXWNE1wEo3s9h.jpg!280x280.jpg?1592118899" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/ui-ux">UI/UX</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/product-management">產品經理</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/ui">使用者介面 UI</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/ux">使用者經驗 UX</a>
+                  </li>
+                <li class="more"><a href="/categories#UI/UX">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9789864345786?list_name=i-c">
+              <img alt="行動軟體開發-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/157/908/medium/MP22104.jpg?1614309811" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/mobile-app">行動軟體開發</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/apple-developer">Apple Developer</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/android">Android</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/cross-platform">Cross-Platform</a>
+                  </li>
+                <li class="more"><a href="/categories#%E8%A1%8C%E5%8B%95%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781492062493?list_name=i-c">
+              <img alt="資料庫-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/022/757/199/9781492062493.jpg?1620720716" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/database">資料庫</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/full-text-search">全文搜尋引擎 Full-text-search</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/postgresql">PostgreSQL</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/sql">SQL</a>
+                  </li>
+                <li class="more"><a href="/categories#%E8%B3%87%E6%96%99%E5%BA%AB">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781119712978?list_name=i-c">
+              <img alt="系統開發-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/022/642/359/9781119712978.jpg?1620714140" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/system-programming">系統開發</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/rust">Rust 語言</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/c++">C++ 程式語言</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/c">C 程式語言</a>
+                  </li>
+                <li class="more"><a href="/categories#%E7%B3%BB%E7%B5%B1%E9%96%8B%E7%99%BC">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781492083733?list_name=i-c">
+              <img alt="雲端運算-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/023/399/894/9781492083733.jpg?1620720677" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/cloud-computing">雲端運算</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/aws">Amazon Web Services</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/devops">DevOps</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/kubernetes">Kubernetes</a>
+                  </li>
+                <li class="more"><a href="/categories#%E9%9B%B2%E7%AB%AF%E9%81%8B%E7%AE%97">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781492075455?list_name=i-c">
+              <img alt="分散式架構-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/022/268/440/9781492075455.jpg?1620721167" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/distributed-systems">分散式架構</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/hadoop">Hadoop</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/spark">Spark</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/message-queue">Message Queue</a>
+                  </li>
+                <li class="more"><a href="/categories#%E5%88%86%E6%95%A3%E5%BC%8F%E6%9E%B6%E6%A7%8B">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781484265154?list_name=i-c">
+              <img alt="量子電腦-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/023/538/196/9781484265154.jpg?1609202798" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/quantum-computer">量子電腦</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/quantum-computing">量子計算</a>
+                  </li>
+                <li class="more"><a href="/categories#%E9%87%8F%E5%AD%90%E9%9B%BB%E8%85%A6">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781108491617?list_name=i-c">
+              <img alt="程式語言-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/151/079/medium/51Ffs_oHY_L._SX351_BO1_204_203_200_.jpg?1596785206" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/programming-languages">程式語言</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/perl">Perl 程式語言</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/functional-programming">函數式程式語言 Functional-programming</a>
+                  </li>
+                <li class="more"><a href="/categories#%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781484263952?list_name=i-c">
+              <img alt="遊戲開發設計-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/023/398/030/9781484263952.jpg?1606790821" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/game-development">遊戲開發設計</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/game-engine">遊戲引擎 Game-engine</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/3d-modeling">3D建模 3D-modeling</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/unreal">Unreal</a>
+                  </li>
+                <li class="more"><a href="/categories#%E9%81%8A%E6%88%B2%E9%96%8B%E7%99%BC%E8%A8%AD%E8%A8%88">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9789865026615?list_name=i-c">
+              <img alt="軟體架構-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/156/791/medium/9789865026615.jpg?1611284769" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/software-architecture">軟體架構</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/design-patterns">Design Pattern 設計模式</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/object-oriented">Object-oriented 物件導向 </a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/refactoring">Refactoring 重構</a>
+                  </li>
+                <li class="more"><a href="/categories#%E8%BB%9F%E9%AB%94%E6%9E%B6%E6%A7%8B">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9789864342662?list_name=i-c">
+              <img alt="軟體工程-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/111/681/medium/9789864342662.jpg?1525540373" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/software-engineering">軟體工程</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/agile">Agile Software 敏捷軟體開發</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/version-control">Version Control 版本控制系統</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/ci-cd">CI/CD</a>
+                  </li>
+                <li class="more"><a href="/categories#%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9789864345618?list_name=i-c">
+              <img alt="軟體測試-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/156/801/medium/MP12033.jpg?1611302626" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/software-testing">軟體測試</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/selenium">selenium</a>
+                  </li>
+                <li class="more"><a href="/categories#%E8%BB%9F%E9%AB%94%E6%B8%AC%E8%A9%A6">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781718500686?list_name=i-c">
+              <img alt="資訊科學-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/021/420/684/9781718500686.jpg?1604378509" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/computer-science">資訊科學</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/computer-science-introduction">Computer-Science 計算機概論</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/operating-system">Operating-system 作業系統原理 </a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/algorithms-data-structures">Algorithms-data-structures 資料結構與演算法 </a>
+                  </li>
+                <li class="more"><a href="/categories#%E8%B3%87%E8%A8%8A%E7%A7%91%E5%AD%B8">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781839216923?list_name=i-c">
+              <img alt="資訊安全-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/023/296/646/9781839216923.jpg?1609808647" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/computer-security">資訊安全</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/metasploit">Metasploit</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/wireshark">Wireshark</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/penetration-test">Penetration-test 滲透測試</a>
+                  </li>
+                <li class="more"><a href="/categories#%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781484264577?list_name=i-c">
+              <img alt="物聯網 IoT-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/023/639/484/9781484264577.jpg?1610423098" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/iot">物聯網 IoT</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/esp32">ESP32</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/raspberry-pi">Raspberry Pi</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/arduino">Arduino</a>
+                  </li>
+                <li class="more"><a href="/categories#%E7%89%A9%E8%81%AF%E7%B6%B2%20IoT">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9789865027698?list_name=i-c">
+              <img alt="Adobe 軟體應用-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/158/583/medium/ACD020100.jpg?1615948875" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/adobe">Adobe 軟體應用</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/xd">XD</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/photoshop">Photoshop</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/illustrator">Illustrator</a>
+                  </li>
+                <li class="more"><a href="/categories#Adobe%20%E8%BB%9F%E9%AB%94%E6%87%89%E7%94%A8">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781484245255?list_name=i-c">
+              <img alt="Office 系列-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/007/127/036/9781484245255.jpg?1559006426" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/office">Office 系列</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/access">Access</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/excel">Excel</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/libreoffice">LibreOffice</a>
+                  </li>
+                <li class="more"><a href="/categories#Office%20%E7%B3%BB%E5%88%97">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781617297601?list_name=i-c">
+              <img alt="Java-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/022/645/528/9781617297601.jpg?1609814174" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/java-all">Java</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/java">Java 程式語言</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/java-ecosystem">Java 相關技術</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/jvm-languages">JVM 語言</a>
+                  </li>
+                <li class="more"><a href="/categories#Java">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781098100964?list_name=i-c">
+              <img alt="微軟技術-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/023/338/097/9781098100964.jpg?1620714197" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/microsoft">微軟技術</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/net">.NET</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/aspnet">ASP.NET</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/c%23">C#</a>
+                  </li>
+                <li class="more"><a href="/categories#%E5%BE%AE%E8%BB%9F%E6%8A%80%E8%A1%93">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781617296338?list_name=i-c">
+              <img alt="區塊鏈與金融科技-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/019/669/659/9781617296338.jpg?1602564248" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/blockchain-and-fintech">區塊鏈與金融科技</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/fintech">Fintech</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/blockchain">區塊鏈 Blockchain</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/trading">程式交易 Trading</a>
+                  </li>
+                <li class="more"><a href="/categories#%E5%8D%80%E5%A1%8A%E9%8F%88%E8%88%87%E9%87%91%E8%9E%8D%E7%A7%91%E6%8A%80">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9780128223208?list_name=i-c">
+              <img alt="網路通訊-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/022/363/108/9780128223208.jpg?1589269458" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/network-communications">網路通訊</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/computer-networks">電腦網路 Computer-networks</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/5g">5G</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/http">HTTP</a>
+                  </li>
+                <li class="more"><a href="/categories#%E7%B6%B2%E8%B7%AF%E9%80%9A%E8%A8%8A">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9789864345670?list_name=i-c">
+              <img alt="商業管理類-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/158/147/medium/MP22101.jpg?1614675644" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/business">商業管理類</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/google-analytics">Google Analytics</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/seo">搜尋引擎優化 SEO</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/marketing">行銷/網路行銷 Marketing</a>
+                  </li>
+                <li class="more"><a href="/categories#%E5%95%86%E6%A5%AD%E7%AE%A1%E7%90%86%E9%A1%9E">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9787121401411?list_name=i-c">
+              <img alt="電子電路電機類-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/157/496/medium/9787121401411.jpg?1613026004" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/electronics-all">電子電路電機類</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/verilog">Verilog</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/power-electronics">電力電子 Power-electronics</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/microelectronics">微電子學 Microelectronics</a>
+                  </li>
+                <li class="more"><a href="/categories#%E9%9B%BB%E5%AD%90%E9%9B%BB%E8%B7%AF%E9%9B%BB%E6%A9%9F%E9%A1%9E">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9787121402036?list_name=i-c">
+              <img alt="嵌入式系統-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/157/498/medium/9787121402036.jpg?1613026004" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/embedded-system">嵌入式系統</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/risc-v">RISC-V</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/8051">8051</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/arm">ARM</a>
+                  </li>
+                <li class="more"><a href="/categories#%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%B5%B1">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9787302557395?list_name=i-c">
+              <img alt="數學-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/156/770/medium/085279-01.jpg?1611147104" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/mathematics">數學</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/probability-and-statistics">機率統計學 Probability-and-statistics</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/linear-algebra">線性代數 Linear-algebra</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/calculus">微積分 Calculus</a>
+                  </li>
+                <li class="more"><a href="/categories#%E6%95%B8%E5%AD%B8">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9787111667520?list_name=i-c">
+              <img alt="其他-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/products/images/000/156/490/medium/45875f1f08e12b21.jpg?1610367393" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/others">其他</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/sap">SAP</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/cisco">Cisco</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/gis">地理資訊系統 Gis</a>
+                  </li>
+                <li class="more"><a href="/categories#%E5%85%B6%E4%BB%96">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="col-span-6 lg:col-span-4 xl:col-span-3 sm:grid grid-cols-3 bg-gray-200 m-2 p-2 rounded-lg">
+            <a href="/products/9781484265963?list_name=i-c">
+              <img alt="製圖軟體應用-cover" class="w-4" loading="lazy" src="https://cf-assets2.tenlong.com.tw/ig/023/517/902/9781484265963.jpg?1608609062" />
+</a>            <div class="col-span-2 mb-2">
+              <h3><a href="/categories/cad">製圖軟體應用</a></h3>
+              <ul class="text-sm mb-1">
+                  <li class="mb-1">
+                    <a href="/categories/autocad">AutoCAD</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/artlantis">Artlantis</a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/categories/alias">Alias</a>
+                  </li>
+                <li class="more"><a href="/categories#%E8%A3%BD%E5%9C%96%E8%BB%9F%E9%AB%94%E6%87%89%E7%94%A8">更多相關項目</a></li>
+              </ul>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+
+<script type="application/ld+json">
+[{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://www.tenlong.com.tw",
+  "logo": "https://www.tenlong.com.tw/images/logo.png",
+  "areaServed": "TW",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+886-2-2331-8868",
+    "availableLanguage": "zh-Hant-TW",
+    "contactType": "customer service"
+  }]
+},
+{
+  "@context": "http://schema.org",
+  "@type": "Store",
+  "name": "天瓏專業電腦書店",
+  "image": "https://www.tenlong.com.tw/images/logo.png",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"台北市重慶南路一段105號1樓",
+    "addressCountry":"TW"
+  },
+  "geo":{
+    "@type":"GeoCoordinates",
+    "latitude": 25.042780,
+    "longitude": 121.513369
+  },
+  "telephone":"+886-2-2371-7725",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "opens": "09:00",
+    "closes": "22:30"
+  }
+}
+]
+</script>
+
+      </div>
+
+
+      <div class="sidebox bg-white rounded-lg">
+        <h2 class="">廣告專區</h2>
+        <ul class="grid grid-cols-12">
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="博碩曬書季" href="/pins/3007"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/007/pjpeg/%E5%8D%9A%E7%A2%A9%E6%9B%AC%E6%9B%B8%E5%AD%A3.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="週邊大集合" href="/pins/3029"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/029/pjpeg/%E9%80%B1%E9%82%8A%E5%A4%A7%E9%9B%86%E5%90%88.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="5G" href="/pins/2346"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/002/346/pjpeg/5G%E6%99%82%E4%BB%A3.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="Linear Algebra" href="/pins/2472"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/002/472/pjpeg/LINEAR_ALGEBRA_s.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="Cisco" href="/pins/2690"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/002/690/pjpeg/cisco1.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="O&#39;reilly" href="/pins/3086"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/086/pjpeg/oreilly.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="packt" href="/pins/3005"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/005/pjpeg/packt.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="Manning" href="/pins/3087"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/087/pjpeg/manning.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="Pearson" href="/pins/3088"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/088/pjpeg/pearson.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="apress" href="/pins/3004"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/004/pjpeg/apress.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="Springer" href="/pins/3030"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/030/pjpeg/springer.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="MK" href="/pins/3089"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/089/pjpeg/mk.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="CRC" href="/pins/3090"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/090/pjpeg/crc.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="MG" href="/pins/3031"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/031/pjpeg/mc-graw_hill.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="Wiley" href="/pins/3091"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/091/pjpeg/wiley.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="Cambridge" href="/pins/3032"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/032/pjpeg/cambridge.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="MC" href="/pins/3092"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/003/092/pjpeg/mc.jpg" /></a>
+            </li>
+            <li class="col-span-6 md:col-span-2 justify-self-center m-2  border border-gray-700">
+              <a title="Microsoft" href="/pins/2162"><img loading="lazy" src="https://cf-assets2.tenlong.com.tw/pins/images/000/002/162/pjpeg/Microsoft-mini.jpg" /></a>
+            </li>
+        </ul>
+      </div>
+
+    </div><!-- end main-block -->
+  </div>
+  <!-- end center-container -->
+
+  
+  <footer class="page-footer">
+    <div class="center-container">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/%E5%A4%A9%E7%93%8F%E8%B3%87%E8%A8%8A%E5%9C%96%E6%9B%B8-236436558020/">Facebook 粉絲專頁</a>
+        </li>
+        <li>
+          <a href="/faq">客服與FAQ</a>
+        </li>
+        <li>
+          <a href="/about">連絡我們</a>
+        </li>
+        <li>
+          <a href="/privacy">隱私權政策</a>
+        </li>
+        <li>
+          <a href="/terms">服務條款</a>
+        </li>
+      </ul>
+      <div class="copyright">
+        Copyright &copy; 2021 Tenlong Computer Books Co, Ltd. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+<script type="application/ld+json">
+[{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "天瓏網路書店",
+  "alternateName": "Tenlong Computer Book",
+  "url": "https://www.tenlong.com.tw/"
+},
+{
+    "@context": "http://schema.org",
+    "@type": "SiteNavigationElement",
+    "name": [
+        "書籍分類",
+        "中文暢銷排行",
+        "簡體暢銷排行",
+        "英文暢銷排行",
+        "中文最近新書",
+        "簡體最近新書",
+        "英文最近新書",
+        "中文書",
+        "簡體書",
+        "英文書",
+        "其他商品",
+        "電子開發板",
+        "門市資訊"
+    ],
+    "url": [
+        "https://www.tenlong.com.tw/categories",
+        "https://www.tenlong.com.tw/zh_tw/recent_bestselling",
+        "https://www.tenlong.com.tw/zh_cn/recent_bestselling",
+        "https://www.tenlong.com.tw/en/recent_bestselling",
+        "https://www.tenlong.com.tw/zh_tw/recent",
+        "https://www.tenlong.com.tw/zh_cn/recent",
+        "https://www.tenlong.com.tw/en/recent",
+        "https://www.tenlong.com.tw/tw",
+        "https://www.tenlong.com.tw/cn",
+        "https://www.tenlong.com.tw/en",
+        "https://www.tenlong.com.tw/lists",
+        "https://www.tenlong.com.tw/hw",
+        "https://www.tenlong.com.tw/about"
+    ]
+}
+]
+</script>
+
+<script>
+  dataLayer.push({
+    'ecommerce': {
+      'currencyCode': 'TWD',
+      'impressions': [{"id":"9789864348008","list":"i-r-zh_tw"},{"id":"9789865028640","list":"i-r-zh_tw"},{"id":"9789863126720","list":"i-r-zh_tw"},{"id":"9789865028756","list":"i-r-zh_tw"},{"id":"9789864347971","list":"i-r-zh_tw"},{"id":"9789865028862","list":"i-r-zh_tw"},{"id":"9789864347957","list":"i-r-zh_tw"},{"id":"9789860776089","list":"i-r-zh_tw"},{"id":"9789860776140","list":"i-r-zh_tw"},{"id":"9789860776072","list":"i-r-zh_tw"},{"id":"9789860776096","list":"i-r-zh_tw"},{"id":"9789863126737","list":"i-r-zh_tw"},{"id":"9789865028763","list":"i-r-zh_tw"},{"id":"9789864347926","list":"i-r-zh_tw"},{"id":"9789864347933","list":"i-r-zh_tw"},{"id":"9789865028619","list":"i-r-zh_tw"},{"id":"9789864347896","list":"i-r-zh_tw"},{"id":"9789865028381","list":"i-r-zh_tw"},{"id":"9789864347834","list":"i-r-zh_tw"},{"id":"9789863126706","list":"i-r-zh_tw"},{"id":"9781492052593","list":"i-r-en"},{"id":"9781108995146","list":"i-r-en"},{"id":"9781484268117","list":"i-r-en"},{"id":"9781119790020","list":"i-r-en"},{"id":"9781492061373","list":"i-r-en"},{"id":"9781098101602","list":"i-r-en"},{"id":"9781108491594","list":"i-r-en"},{"id":"9781119787631","list":"i-r-en"},{"id":"9781492083818","list":"i-r-en"},{"id":"9781718500723","list":"i-r-en"},{"id":"9781484270639","list":"i-r-en"},{"id":"9781838829506","list":"i-r-en"},{"id":"9781119786238","list":"i-r-en"},{"id":"9781718500587","list":"i-r-en"},{"id":"9781119755463","list":"i-r-en"},{"id":"9781119776871","list":"i-r-en"},{"id":"9781617296130","list":"i-r-en"},{"id":"9781718501324","list":"i-r-en"},{"id":"9781484257777","list":"i-r-en"},{"id":"9781839212277","list":"i-r-en"},{"id":"9787115563163","list":"i-r-zh_cn"},{"id":"9787111684756","list":"i-r-zh_cn"},{"id":"9787111683674","list":"i-r-zh_cn"},{"id":"9787121409981","list":"i-r-zh_cn"},{"id":"9787115552549","list":"i-r-zh_cn"},{"id":"9787115560629","list":"i-r-zh_cn"},{"id":"9787111678465","list":"i-r-zh_cn"},{"id":"9787115558855","list":"i-r-zh_cn"},{"id":"9787115560124","list":"i-r-zh_cn"},{"id":"9787121409523","list":"i-r-zh_cn"},{"id":"9787111679585","list":"i-r-zh_cn"},{"id":"9787302576839","list":"i-r-zh_cn"},{"id":"9787569267563","list":"i-r-zh_cn"},{"id":"9787115561459","list":"i-r-zh_cn"},{"id":"9787121408526","list":"i-r-zh_cn"},{"id":"9787302573210","list":"i-r-zh_cn"},{"id":"9787121408229","list":"i-r-zh_cn"},{"id":"9787121408304","list":"i-r-zh_cn"},{"id":"9787111679363","list":"i-r-zh_cn"},{"id":"9787111664475","list":"i-r-zh_cn"}]
+    }
+  });
+</script>
+
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat"
+       page_id="236436558020"
+       greeting_dialog_display="hide"
+       logged_in_greeting="Hello World! 我是工人智慧小編，如果有任何問題，請不吝指教。"
+       logged_out_greeting="Hello World! 我是工人智慧小編，如果有任何問題，請不吝指教。">
+  </div>
+</body>
+</html>
