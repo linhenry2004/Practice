@@ -15,7 +15,7 @@ def YOLO(img):
 
     # Give the configuration and weight files for the model and load the network.
     net = cv.dnn.readNetFromDarknet(
-        'yolov3_custom_64_1000.cfg', 'yolov3_custom_64_1000.weights')
+        'yolov3_custom_16_1000.cfg', 'yolov3_custom_16_1000.weights')
     net.setPreferableBackend(cv.dnn.DNN_BACKEND_OPENCV)
     # net.setPreferableTarget(cv.dnn.DNN_TARGET_CPU)
 
@@ -95,12 +95,11 @@ def YOLO(img):
             text = "{}: {:.4f}".format(classes[classIDs[i]], confidences[i])
             cv.putText(img, text, (x, y - 5),
                        cv.FONT_HERSHEY_SIMPLEX, 0.5, color, 1)
-
     cv.imshow('window', img)
     cv.waitKey(0)
     cv.destroyAllWindows()
 
 
-filename = 'images/131.jpg'
+filename = 'obj/1.jpg'
 img = cv.imread(filename)
 YOLO(img)
