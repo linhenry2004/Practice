@@ -138,9 +138,9 @@ def YOLO(img):
     # cv.destroyAllWindows()
 
 
-def distance_to_camera(knownWidth, focalLength, perWidth):
+# def distance_to_camera(knownWidth, focalLength, perWidth):
     # compute and return the distance from the maker to the camera
-    return (knownWidth * focalLength) / perWidth
+    # return (knownWidth * focalLength) / perWidth
 
 
 def check_pos(prev, curr):
@@ -183,26 +183,27 @@ count = 0
 while(True):
     ret, img = cap.read()
     YOLO(img)
-    tempList = [[myList[-1].getCenterX(), myList[-1].getCenterY()],
-                [myList[-1].getWidth(), myList[-1].getHeight()], 0]
-    if len(tempList) == 3:
-        cm = myList[-1].distance_to_camera()
-        cm *= 1000
-        box = cv.cv.BoxPoints(
-            tempList) if imutils.is_cv2() else cv.boxPoints(tempList)
-        box = np.int0(box)
-        cv.drawContours(img, [box], -1, (0, 255, 0), 2)
-        cv.putText(img, "%.2fcm" % (cm),
-                   (img.shape[1] - 300, img.shape[0] -
-                    20), cv.FONT_HERSHEY_SIMPLEX,
-                   2.0, (0, 255, 0), 3)
+    if len(myList) >= 1:
+        tempList = [[myList[-1].getCenterX(), myList[-1].getCenterY()],
+                    [myList[-1].getWidth(), myList[-1].getHeight()], 0]
+        if len(tempList) == 3:
+            cm = myList[-1].distance_to_camera()
+            cm *= 1000
+            box = cv.cv.BoxPoints(
+                tempList) if imutils.is_cv2() else cv.boxPoints(tempList)
+            box = np.int0(box)
+            cv.drawContours(img, [box], -1, (0, 255, 0), 2)
+            cv.putText(img, "%.2fcm" % (cm),
+                       (img.shape[1] - 300, img.shape[0] -
+                        20), cv.FONT_HERSHEY_SIMPLEX,
+                       2.0, (0, 255, 0), 3)
 
-        print('Current Position: ', myList[-1].getPos())
+            print('Current Position: ', myList[-1].getPos())
 
-    if len(myList) >= 2:
-        check_pos(myList[-2].getPos(), myList[-1].getPos())
-    cv.imshow("image", img)
-    print('\n\n')
+        if len(myList) >= 2:
+            check_pos(myList[-2].getPos(), myList[-1].getPos())
+        cv.imshow("image", img)
+        print('\n\n')
 
     count += 30
     cap.set(1, count)
