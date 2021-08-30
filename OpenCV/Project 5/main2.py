@@ -45,7 +45,7 @@ def YOLO(img):
     colors = np.random.randint(0, 255, size=(len(classes), 3), dtype='uint8')
 
     # Give the configuration and weight files for the model and load the network.
-    net = cv.dnn.readNetFromDarknet('yolov3.cfg', 'yolov3.weigfhts')
+    net = cv.dnn.readNetFromDarknet('yolov3.cfg', 'yolov3.weights')
     net.setPreferableBackend(cv.dnn.DNN_BACKEND_OPENCV)
     # net.setPreferableTarget(cv.dnn.DNN_TARGET_CPU)
 
